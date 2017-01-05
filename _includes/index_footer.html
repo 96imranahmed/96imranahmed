@@ -1,19 +1,5 @@
 <script src="{{ "static/js/scroll.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "static/js/localization.js" | prepend: site.baseurl }}"></script>
 <script async src="{{ "static/js/count.js" | prepend: site.baseurl }}"></script>
-
-<!-- Baidu analytics -->
-{% if site.ba %}
-  <script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?{{ site.ba.uuid }}";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-  </script>
-{% endif %}
 
 <!-- Google analytics -->
 {% if site.ga %}
