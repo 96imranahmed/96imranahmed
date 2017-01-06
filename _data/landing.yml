@@ -1,24 +1,20 @@
 # index page sections
 - id: 'about-me'
-  i18n: 'nav.about_me'
   name: 'About'
   tpl: 'about.html'
   css: ''
 
 - id: 'career'
-  i18n: 'nav.career'
   name: 'Career'
   tpl: 'career.html'
   css: 'timeline'
 
 - id: 'projects'
-  i18n: 'nav.projects'
   name: 'Projects'
   tpl: 'projects.html'
   css: 'project'
 
 - id: 'links'
-  i18n: 'nav.link'
   name: 'Contact'
   tpl: 'links.html'
   css: 'contact'
