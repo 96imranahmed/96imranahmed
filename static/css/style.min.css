@@ -2260,16 +2260,9 @@ div.dt-button-info {
     text-align: center
 }
 
-.ui-search-toolbar input[type=text] {
-    font-size: 12px;
-    height: 15px;
-    border: 1px solid #CCC;
-    border-radius: 0
-}
-
-.ui-state-default,
-.ui-widget-content .ui-state-default,
-.ui-widget-header .ui-state-default {
+.ui - state - default,
+.ui - widget - content.ui - state - default,
+.ui - widget - header.ui - state - default {
     background: #F9F9F9;
     border: 1px solid #DDD;
     line-height: 15px;
@@ -2280,12 +2273,6 @@ div.dt-button-info {
 
 .ui-icon-triangle-1-n {
     background-position: 1px -16px
-}
-
-.ui-jqgrid tr.ui-search-toolbar th {
-    border-top-width: 0!important;
-    border-top-color: inherit!important;
-    border-top-style: ridge!important
 }
 
 .ui-state-focus,
@@ -4983,24 +4970,6 @@ body.mini-navbar.fixed-sidebar .logo-element {
     animation: none
 }
 
-.search-form {
-    margin-top: 10px
-}
-
-.search-result h3 {
-    margin-bottom: 0;
-    color: #1E0FBE
-}
-
-.search-result .search-link {
-    color: #006621
-}
-
-.search-result p {
-    font-size: 12px;
-    margin-top: 5px
-}
-
 .contact-box {
     border: 1px solid #e7eaec;
     padding: 20px;
@@ -5444,10 +5413,6 @@ ul.notes li div:hover {
 
 a.compose-mail {
     padding: 8px 10px
-}
-
-.mail-search {
-    max-width: 300px
 }
 
 .profile-content {
@@ -7487,11 +7452,11 @@ body.landing-page {
 }
 
 .landing-page .header-back.one {
-    background: url(../img/landing/header_one.jpg) 50% 0 no-repeat
+    background: url(../img/landing/cover/a.jpg) 50% 0 no-repeat
 }
 
 .landing-page .header-back.two {
-    background: url(../img/landing/header_two.jpg) 50% 0 no-repeat
+    background: url(../img/landing/cover/b.jpg) 50% 0 no-repeat
 }
 
 .landing-page .carousel {
