@@ -356,18 +356,18 @@ body.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
 }
 
 .navbar - default.special_link a {
-    background: #3385FF;
+    background: #e67e22;
     color: # fff
 }
 
 .navbar - default.special_link a:hover {
-    background: #3385FF!important;
+    background: #e67e22!important;
     color: # fff
 }
 
 .navbar - default.special_link a span.label {
     background: #fff;
-    color: #3385FF
+    color: #e67e22
 }
 
 .navbar-default .landing_link a {
@@ -376,13 +376,13 @@ body.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
 }
 
 .navbar - default.landing_link a:hover {
-    background: #3385FF!important;
+    background: #e67e22!important;
     color: # fff
 }
 
 .navbar - default.landing_link a span.label {
     background: #fff;
-    color: #3385FF
+    color: #e67e22
 }
 
 .logo-element {
@@ -486,7 +486,7 @@ body.canvas - menu.logo - element {
 
 body.mini - navbar.nav - header {
     padding: 0;
-    background - color: #3385FF
+    background - color: #e67e22
 }
 
 body.canvas-menu .nav-header {
@@ -597,7 +597,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 
 .top - navigation.navbar - nav.dropdown - menu>.active>a {
     background: #fff;
-    color: #3385FF;
+    color: #e67e22;
     font-weight: 700
 }
 
@@ -618,7 +618,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .top-navigation .nav>li a:focus,
 .top-navigation .nav>li a:hover {
     background: # fff;
-    color: #3385FF
+    color: #e67e22
 }
 
 .top-navigation .nav>li.active {
@@ -627,7 +627,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 .top - navigation.nav>li.active>a {
-    color: #3385FF
+    color: #e67e22
 }
 
 .top-navigation .navbar-right {
@@ -657,7 +657,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 .top - navigation.navbar - brand {
-    background: #3385FF;
+    background: #e67e22;
     color: # fff;
     padding: 15 px 25 px
 }
@@ -705,7 +705,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 
 .navbar - toggle {
-    background - color: #3385FF;
+    background - color: #e67e22;
     color: # fff;
     padding: 6 px 12 px;
     font - size: 14 px
@@ -766,7 +766,7 @@ button.dim {
 }
 
 .btn - primary.btn - outline {
-    color: #3385FF
+    color: #e67e22
 }
 
 .btn-success.btn-outline {
@@ -794,7 +794,7 @@ button.dim {
 }
 
 .btn - primary {
-    background - color: #3385FF;
+    background - color: #e67e22;
     border-color: # 3385 FF;
     color: #FFF
 }
@@ -1046,7 +1046,7 @@ fieldset[disabled].btn - danger:hover {
 .btn - link:focus,
 .btn - link:hover,
 .open.dropdown - toggle.btn - link {
-    color: #3385FF;
+    color: #e67e22;
     text-decoration: none
 }
 
@@ -1417,7 +1417,7 @@ button.dim:active:before {
 }
 
 .fc - state - active {
-    background - color: #3385FF;
+    background - color: #e67e22;
     border-color: # 3385 FF;
     color: #fff
 }
@@ -1452,7 +1452,7 @@ button.dim:active:before {
 .fc - event,
 .fc - event a {
     padding: 4 px 6 px;
-    background - color: #3385FF;
+    background - color: #e67e22;
     border-color: # 3385 FF
 }
 
@@ -1566,7 +1566,7 @@ a.list-group-item.active,
 a.list-group-item.active:focus,
 a.list-group-item.active:hover {
     background-color: # 3385 FF;
-    border - color: #3385FF;
+    border - color: #e67e22;
     color: # FFF;
     z - index: 2
 }
@@ -1881,7 +1881,7 @@ div.dt - button - info {
 }
 
 .pace.pace - progress {
-    background: #3385FF;
+    background: #e67e22;
     position: fixed;
     z-index: 2040;
     top: 0;
@@ -2035,7 +2035,7 @@ div.dt - button - info {
 
 .form - control:focus,
 .single - line:focus {
-    border - color: #3385FF!important
+    border - color: #e67e22!important
 }
 
 .has-success .form-control {
@@ -2051,7 +2051,7 @@ div.dt - button - info {
 }
 
 .has - success.control - label {
-    color: #3385FF
+    color: #e67e22
 }
 
 .has-warning .control-label {
@@ -2083,7 +2083,7 @@ div.dt - button - info {
 }
 
 .noUi - connect {
-    background: #3385FF;
+    background: #e67e22;
     box-shadow: none
 }
 
@@ -2122,7 +2122,7 @@ div.dt - button - info {
     display: block;
     overflow: hidden;
     cursor: pointer;
-    border: 2 px solid #3385FF;
+    border: 2 px solid #e67e22;
     border-radius: 3px
 }
 
@@ -2156,7 +2156,7 @@ div.dt - button - info {
 .onoffswitch - inner:before {
     content: "ON";
     padding - left: 7 px;
-    background - color: #3385FF;
+    background - color: #e67e22;
     color: # FFF
 }
 
@@ -2173,7 +2173,7 @@ div.dt - button - info {
     width: 18px;
     margin: 0;
     background: # FFF;
-    border: 2 px solid #3385FF;
+    border: 2 px solid #e67e22;
     border-radius: 3px;
     position: absolute;
     top: 0;
@@ -2704,7 +2704,7 @@ label.error {
 
 .toast,
 .toast - success {
-    background - color: #3385FF
+    background - color: #e67e22
 }
 
 .toast-error {
@@ -2751,7 +2751,7 @@ label.error {
 }
 
 .inspinia - notify.alert - info {
-    border - left: 6 px solid #3385FF
+    border - left: 6 px solid #e67e22
 }
 
 .img-container,
@@ -2880,7 +2880,7 @@ a.forum-item-title:hover {
 
 .forum - item.active.fa,
 .forum - item.active a.forum - item - title {
-    color: #3385FF
+    color: #e67e22
 }
 
 @media (max-width:992px) {
@@ -3067,7 +3067,7 @@ a.forum-item-title:hover {
 }
 
 .vertical - date small {
-    color: #3385FF;
+    color: #e67e22;
     font-weight: 400
 }
 
@@ -3313,7 +3313,7 @@ a.forum-item-title:hover {
     position: absolute;
     left: 10 px;
     border - radius: 3 px;
-    background: #3385FF;
+    background: #e67e22;
     padding: 3px;
     color: # fff;
     cursor: pointer;
@@ -3420,7 +3420,7 @@ a.forum-item-title:hover {
 
 .slick-next:before,
 .slick-prev:before {
-    color: #3385FF!important
+    color: #e67e22!important
 }
 
 .payment-card {
@@ -4091,7 +4091,7 @@ img.circle-border {
     font-weight: 600;
     padding: 17px 20px;
     text-align: center;
-    background-color: #3385FF
+    background-color: #e67e22
 }
 
 .login-panel {
@@ -4300,7 +4300,7 @@ ul.notes li {
 }
 
 .navy-bg {
-    background-color: #3385FF;
+    background-color: #e67e22;
     color: #fff
 }
 
@@ -4329,12 +4329,12 @@ ul.notes li {
 }
 
 .panel-primary {
-    border-color: #3385FF
+    border-color: #e67e22
 }
 
 .panel-primary>.panel-heading {
-    background-color: #3385FF;
-    border-color: #3385FF
+    background-color: #e67e22;
+    border-color: #e67e22
 }
 
 .panel-success {
@@ -4378,7 +4378,7 @@ ul.notes li {
 }
 
 .progress-bar {
-    background-color: #3385FF
+    background-color: #e67e22
 }
 
 .progress-small,
@@ -4431,7 +4431,7 @@ ul.notes li {
 }
 
 .text-navy {
-    color: #3385FF
+    color: #e67e22
 }
 
 .text-primary {
@@ -5286,7 +5286,7 @@ ul.notes li div:hover {
 }
 
 .category-list li a .text-navy {
-    color: #3385FF
+    color: #e67e22
 }
 
 .category-list li a .text-primary {
@@ -5482,7 +5482,7 @@ a.compose-mail {
 }
 
 .file-list li a:hover {
-    color: #3385FF
+    color: #e67e22
 }
 
 .user-friends img {
@@ -5608,7 +5608,7 @@ dd.project-people {
 
 .faq-question,
 .faq-question:hover {
-    color: #3385FF
+    color: #e67e22
 }
 
 .faq-item {
@@ -5837,7 +5837,7 @@ dd.project-people {
 }
 
 .issue-tracker .btn-link {
-    color: #3385FF
+    color: #e67e22
 }
 
 table.issue-tracker tbody tr td {
@@ -5899,7 +5899,7 @@ table.issue-tracker tbody tr td {
 }
 
 .agile-list li.success-element {
-    border-left: 3px solid #3385FF
+    border-left: 3px solid #e67e22
 }
 
 .agile-detail {
@@ -6004,14 +6004,14 @@ table.shoping-cart-table tr td:last-child {
 
 .product-name:focus,
 .product-name:hover {
-    color: #3385FF
+    color: #e67e22
 }
 
 .product-price {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
-    background-color: #3385FF;
+    background-color: #e67e22;
     padding: 6px 12px;
     position: absolute;
     top: -32px;
@@ -6153,7 +6153,7 @@ table.shoping-cart-table tr td:last-child {
 }
 
 .vote-actions a {
-    color: #3385FF;
+    color: #e67e22;
     font-weight: 600
 }
 
@@ -6181,7 +6181,7 @@ table.shoping-cart-table tr td:last-child {
 }
 
 .vote-info a:hover {
-    color: #3385FF
+    color: #e67e22
 }
 
 .vote-icon {
@@ -6196,7 +6196,7 @@ table.shoping-cart-table tr td:last-child {
 }
 
 .vote-icon.active {
-    color: #3385FF
+    color: #e67e22
 }
 
 body.body-small .vote-icon {
@@ -6224,7 +6224,7 @@ body.body-small .vote-icon {
     height: 38px;
     width: 38px;
     display: block;
-    background: #3385FF;
+    background: #e67e22;
     padding: 9px 8px;
     color: #fff;
     border-radius: 50%
@@ -6232,7 +6232,7 @@ body.body-small .vote-icon {
 
 .open-small-chat:hover {
     color: #fff;
-    background: #3385FF
+    background: #e67e22
 }
 
 .small-chat-box {
@@ -6295,7 +6295,7 @@ body.body-small .vote-icon {
 }
 
 .small-chat-box .content .chat-message.active {
-    background: #3385FF;
+    background: #e67e22;
     color: #fff
 }
 
@@ -6390,7 +6390,7 @@ body.body-small .vote-icon {
 .sk-spinner-rotating-plane.sk-spinner {
     width: 30px;
     height: 30px;
-    background-color: #3385FF;
+    background-color: #e67e22;
     margin: 0 auto;
     -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
     animation: sk-rotatePlane 1.2s infinite ease-in-out
@@ -6438,7 +6438,7 @@ body.body-small .vote-icon {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #3385FF;
+    background-color: #e67e22;
     opacity: .6;
     position: absolute;
     top: 0;
@@ -6485,7 +6485,7 @@ body.body-small .vote-icon {
 }
 
 .sk-spinner-wave div {
-    background-color: #3385FF;
+    background-color: #e67e22;
     height: 100%;
     width: 6px;
     display: inline-block;
@@ -6548,7 +6548,7 @@ body.body-small .vote-icon {
 
 .sk-spinner-wandering-cubes .sk-cube1,
 .sk-spinner-wandering-cubes .sk-cube2 {
-    background-color: #3385FF;
+    background-color: #e67e22;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -6613,7 +6613,7 @@ body.body-small .vote-icon {
     width: 40px;
     height: 40px;
     margin: 0 auto;
-    background-color: #3385FF;
+    background-color: #e67e22;
     border-radius: 100%;
     -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
     animation: sk-pulseScaleOut 1s infinite ease-in-out
@@ -6660,7 +6660,7 @@ body.body-small .vote-icon {
     display: inline-block;
     position: absolute;
     top: 0;
-    background-color: #3385FF;
+    background-color: #e67e22;
     border-radius: 100%;
     -webkit-animation: sk-chasingDotsBounce 2s infinite ease-in-out;
     animation: sk-chasingDotsBounce 2s infinite ease-in-out
@@ -6720,7 +6720,7 @@ body.body-small .vote-icon {
 .sk-spinner-three-bounce div {
     width: 18px;
     height: 18px;
-    background-color: #3385FF;
+    background-color: #e67e22;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
@@ -6786,7 +6786,7 @@ body.body-small .vote-icon {
     margin: 0 auto;
     width: 20%;
     height: 20%;
-    background-color: #3385FF;
+    background-color: #e67e22;
     border-radius: 100%;
     -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
     animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
@@ -6950,7 +6950,7 @@ body.body-small .vote-icon {
 .sk-spinner-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    background-color: #3385FF;
+    background-color: #e67e22;
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out
@@ -7028,7 +7028,7 @@ body.body-small .vote-icon {
 }
 
 .sk-spinner-wordpress.sk-spinner {
-    background-color: #3385FF;
+    background-color: #e67e22;
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -7092,7 +7092,7 @@ body.body-small .vote-icon {
     margin: 0 auto;
     width: 18%;
     height: 18%;
-    background-color: #3385FF;
+    background-color: #e67e22;
     border-radius: 100%;
     -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out;
     animation: sk-circleFadeDelay 1.2s infinite ease-in-out;
@@ -7267,7 +7267,7 @@ body.landing-page {
 }
 
 .landing-page span.navy {
-    color: #3385FF
+    color: #e67e22
 }
 
 .landing-page p.text-color {
@@ -7275,12 +7275,12 @@ body.landing-page {
 }
 
 .landing-page a.navy-link {
-    color: #3385FF;
+    color: #e67e22;
     text-decoration: none
 }
 
 .landing-page a.navy-link:hover {
-    color: #3385FF
+    color: #e67e22
 }
 
 .landing-page section p {
@@ -7302,7 +7302,7 @@ body.landing-page {
     width: 60px;
     height: 1px;
     margin: 60px auto 0;
-    border-bottom: 2px solid #3385FF
+    border-bottom: 2px solid #e67e22
 }
 
 .landing-page .navbar-wrapper {
@@ -7353,12 +7353,12 @@ body.landing-page {
 .landing-page .navbar-default .navbar-nav>.active>a:hover {
     background: 0 0;
     color: #fff;
-    border-top: 6px solid #3385FF
+    border-top: 6px solid #e67e22
 }
 
 .landing-page .navbar-default .navbar-nav>li>a:focus,
 .landing-page .navbar-default .navbar-nav>li>a:hover {
-    color: #3385FF;
+    color: #e67e22;
     background: inherit
 }
 
@@ -7374,7 +7374,7 @@ body.landing-page {
 
 .landing-page .navbar-default .navbar-brand:focus,
 .landing-page .navbar-default .navbar-brand:hover {
-    background: #3385FF;
+    background: #e67e22;
     color: #fff
 }
 
@@ -7383,7 +7383,7 @@ body.landing-page {
     height: auto;
     display: block;
     font-size: 14px;
-    background: #3385FF;
+    background: #e67e22;
     padding: 15px 20px;
     border-radius: 0 0 5px 5px;
     font-weight: 700;
@@ -7395,7 +7395,7 @@ body.landing-page {
 }
 
 .landing-page .navbar-scroll.navbar-default .nav li a:hover {
-    color: #3385FF
+    color: #e67e22
 }
 
 .landing-page .navbar-wrapper .navbar.navbar-scroll {
@@ -7575,7 +7575,7 @@ body.landing-page {
 }
 
 .landing-page .features small {
-    color: #3385FF
+    color: #e67e22
 }
 
 .landing-page .features h2 {
@@ -7592,13 +7592,13 @@ body.landing-page {
 }
 
 .landing-page .features-icon {
-    color: #3385FF;
+    color: #e67e22;
     font-size: 40px
 }
 
 .landing-page .navy-section {
     margin-top: 60px;
-    background: #3385FF;
+    background: #e67e22;
     color: #fff;
     padding: 20px 0
 }
@@ -7617,7 +7617,7 @@ body.landing-page {
 }
 
 .landing-page .social-icon a {
-    background: #3385FF;
+    background: #e67e22;
     color: #fff;
     padding: 4px 8px;
     height: 28px;
@@ -7627,7 +7627,7 @@ body.landing-page {
 }
 
 .landing-page .social-icon a:hover {
-    background: #3385FF
+    background: #e67e22
 }
 
 .landing-page .img-small {
@@ -7654,7 +7654,7 @@ body.landing-page {
 
 .landing-page .pricing-plan .pricing-price span {
     font-weight: 700;
-    color: #3385FF
+    color: #e67e22
 }
 
 .landing-page .btn-primary,
@@ -7670,7 +7670,7 @@ body.landing-page {
 }
 
 .landing-page li.pricing-title {
-    background: #3385FF;
+    background: #e67e22;
     color: #fff;
     padding: 10px;
     border-radius: 4px 4px 0 0;
@@ -7681,7 +7681,7 @@ body.landing-page {
 .landing-page .testimonials {
     padding-top: 80px;
     padding-bottom: 90px;
-    background-color: #3385FF;
+    background-color: #e67e22;
     background-image: url(../img/landing/avatar_all.png)
 }
 
@@ -7690,7 +7690,7 @@ body.landing-page {
 }
 
 .landing-page .features .big-icon {
-    color: #3385FF!important
+    color: #e67e22!important
 }
 
 .landing-page .contact {
@@ -7759,8 +7759,8 @@ body.landing-page {
 .landing-page .btn-primary:focus,
 .landing-page .btn-primary:hover,
 .landing-page .open .dropdown-toggle.btn-primary {
-    background-color: #3385FF;
-    border-color: #3385FF;
+    background-color: #e67e22;
+    border-color: #e67e22;
     color: #FFF
 }
 
@@ -7847,7 +7847,7 @@ body.landing-page {
         color: #676a6c
     }
     .landing-page .navbar-default .nav li a:hover {
-        color: #3385FF
+        color: #e67e22
     }
     .landing-page .navbar-wrapper .navbar {
         padding-top: 0;
