@@ -7447,6 +7447,10 @@ body.landing-page {
     background: url(../img/landing/cover/b.jpg) 50% 0 no-repeat
 }
 
+.landing-page .slick-slider {
+    width: 100%
+}
+
 .landing-page .carousel {
     height: 470px
 }
