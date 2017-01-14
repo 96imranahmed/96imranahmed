@@ -8,14 +8,13 @@ permalink: /
 <link href="/static/css/flickity.css" rel="stylesheet" media="screen">
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.flickity-slider').flickity({
+        $('.carousel').flickity({
             cellAlign: 'left',
             contain: true,
             autoPlay: true,
             pageDots: false,
-            pauseAutoPlayOnHover: false
+            pauseAutoPlayOnHover: false,
         });
-        $(".nav navbar-nav navbar-right").addClass("active");
     });
 </script>
 
@@ -47,7 +46,7 @@ permalink: /
     </nav>
 </div>
 
-<div class="flickity-slider">
+<div class="carousel">
     {% for slider in site.data.slider %}
     <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
     {% endfor %}
