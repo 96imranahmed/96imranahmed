@@ -7451,18 +7451,18 @@ body.landing-page {
     width: 100%; /* full width */
     height: 100%; /* height of carousel */
     max-width: 100%;
-    margin-right: 10px;
+    margin-right: 0px;
     display: inline-block;
     position: relative;
+    overflow: hidden;
 
 }
 .landing-page .carousel-image{
     top: 50%;
     left: 50%;
+    min-height: 100%;
+    min-width: 100%;
     transform: translate(-50%, -50%);
-    max-width: 100%
-    max-height: 30%
-    object-fit: contain;
     position: absolute;
 }
 .landing-page .services {
@@ -7724,20 +7724,9 @@ body.landing-page {
 }
 
 @media (max-width:992px) {
-    .landing-page .carousel-image {
-        display: none
-    }
 }
 
 @media (max-width:768px) {
-    .landing-page .carousel-caption,
-    .landing-page .carousel-caption.blank {
-        left: 5%;
-        top: 80px
-    }
-    .landing-page .carousel-caption h1 {
-        font-size: 28px
-    }
     .landing-page .navbar.navbar-scroll .navbar-brand {
         margin-top: 6px
     }
@@ -7782,9 +7771,6 @@ body.landing-page {
     .landing-page .navbar-default .navbar-nav>.active>a,
     .landing-page .navbar-default .navbar-nav>.active>a:hover {
         color: inherit
-    }
-    .landing-page .carousel-control {
-        display: none
     }
     .landing-page .navbar .navbar-header {
         display: block;
