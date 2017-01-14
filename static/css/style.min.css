@@ -7445,16 +7445,13 @@ body.landing-page {
 }
 
 .landing-page .flickity-slider{
-    height: 470px;
-}
-/* Navigate with keyboard */
-.flickity-enabled:focus .flickity-viewport {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+    height: 30%;
 }
 .landing-page .carousel-cell{
     width: 100%; /* full width */
     height: 470px; /* height of carousel */
+    max-height: 470px;
+    max-width: 100%;
     margin-right: 10px;
     display: inline-block;
     position: relative;
@@ -7465,7 +7462,9 @@ body.landing-page {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: block;
+    max-width: 100%
+    max-height: 30%
+    object-fit: contain;
 }
 .landing-page .services {
     padding-top: 60px
