@@ -1,75 +1,99 @@
----
-layout: blog
-title: index
-permalink: /
----
+--- layout: blog title: index permalink: / ---
 
-<div class="navbar-wrapper">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<head>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/static/js/flickity.pkgd.min.js"></script>
+    <link href="/static/css/flickity.css" rel="stylesheet" media="screen">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.flickity-slider').flickity({
+                cellAlign: 'left',
+                contain: true,
+                autoPlay: 3000,
+                pauseAutoPlayOnHover: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                {% for section in site.data.landing %}
-                    <li>
-                      <a class="page-scroll" href="#{{ section.id }}">
-                        <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
-                      </a>
-                    </li>
-                {% endfor %}
+                    <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                        {% for section in site.data.landing %}
+                        <li>
+                            <a class="page-scroll" href="#{{ section.id }}">
+                                <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
+                            </a>
+                        </li>
+                        {% endfor %}
 
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                    </ul>
                 </div>
             </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
-        </div>
+        </nav>
     </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
 
-{% for section in site.data.landing %}
-  {% assign loopindex = forloop.index | modulo: 2 %}
-  <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
-    {% include sections/{{section.tpl}} %}
-  </section>
-{% endfor %}
+    <div class="flickity-slider">
+        {% for slider in site.data.slider %}
+        <div class='carousel-cell'><img src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
+        {% endfor %}
+    </div>
+
+
+    <script>
+        /*
+        <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#inSlider" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                        <div class="carousel-image wow zoomIn">
+                            <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                        </div>
+                    </div>
+                    <!-- Set background for slide in css -->
+                    <div class="header-back one"></div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <div class="carousel-caption blank">
+                        </div>
+                    </div>
+                    <!-- Set background for slide in css -->
+                    <div class="header-back two"></div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> */
+    </script>
+
+    {% for section in site.data.landing %} {% assign loopindex = forloop.index | modulo: 2 %}
+    <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
+        {% include sections/{{section.tpl}} %}
+    </section>
+    {% endfor %}
+</body>

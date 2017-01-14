@@ -1,3 +1,44 @@
+### 3.5.2
+- remove the module entry point again will be added in 4.0.0
+
+### 3.5.1
+- fix build output add a test file to test the generated build
+
+### 3.5.0
+- Setting options on individual translations override, rather than merge global configs [#832](https://github.com/i18next/i18next/issues/832)
+- Create an new translator when cloning i18next instance [#834](https://github.com/i18next/i18next/pull/834)
+- allows fallbackLng to be an string, an array or an object defining fallbacks for lng, lng-region plus default, eg
+
+  fallbackLng: {
+    'de-CH': ['fr', 'it', 'en'],
+    'de': ['fr', 'en'],
+    'zh-Hans': ['zh-Hant', 'en'],
+    'zh-Hant': ['zh-Hans', 'en'],
+    'default': ['en']
+  }
+
+
+### 3.4.4
+- Fix Interpolator.escapeValue defaulting to undefined in some cases [#826](https://github.com/i18next/i18next/issues/826)
+
+### 3.4.3
+- Fix Interpolator formatter exception error propagation due to not reset RegExp indices [#820](https://github.com/i18next/i18next/issues/820)
+
+### 3.4.2
+- assert dir function does not crash if no language available
+
+### 3.4.1
+- fix issue with format containing formatSeparator for interpolation formatting
+
+### 3.4.0
+- adds formatting 'format this: {{var, formatRule}}' having a function on options.interpolation.format: function(value, format, lng) { return value } like suggested here [#774](https://github.com/i18next/i18next/issues/774)
+
+### 3.3.1
+- fixed an issue with several unescaped key in the interpolation string [#746](https://github.com/i18next/i18next/pull/746)
+
+### 3.3.0
+- allows option `nonExplicitWhitelist` on init [#741](https://github.com/i18next/i18next/pull/741)
+
 ### 3.2.0
 - adds api function i18next.reloadResources(), i18next.reloadResources(lngs, ns) to trigger a reload of translations
 
