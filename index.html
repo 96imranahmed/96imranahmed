@@ -1,5 +1,5 @@
 --- 
-layout: blog 
+layout: default 
 title: index 
 permalink: / 
 ---
@@ -13,8 +13,10 @@ permalink: /
             cellAlign: 'left',
             contain: true,
             autoPlay: true,
+            pageDots: false,
             pauseAutoPlayOnHover: true
         });
+        $(".nav navbar-nav navbar-right").addClass("active");
     });
 </script>
 
@@ -46,20 +48,17 @@ permalink: /
     </nav>
 </div>
 
-<div class="flickity-slider" data-flickity='{ 
-"autoPlay": 3000,
-"pauseAutoPlayOnHover": true
-"pageDots": true
-}'>
+<div class="flickity-slider">
     {% for slider in site.data.slider %}
     <div class="carousel-cell"><img src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
     {% endfor %}
 </div>
 
 <div>
-{% for section in site.data.landing %} {% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
-    {% include sections/{{section.tpl}} %}
-</section>
+{% for section in site.data.landing %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
+        {% include sections/{{section.tpl}} %}
+    </section>
 {% endfor %}
 </div>
