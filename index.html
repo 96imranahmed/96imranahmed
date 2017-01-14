@@ -50,7 +50,7 @@ permalink: /
 
 <div class="flickity-slider">
     {% for slider in site.data.slider %}
-    <div class="carousel-cell"><img src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
+    <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
     {% endfor %}
 </div>
 

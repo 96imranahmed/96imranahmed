@@ -7457,8 +7457,17 @@ body.landing-page {
     height: 470px; /* height of carousel */
     margin-right: 10px;
     display: inline-block;
-}
+    position: relative;
 
+}
+.landing-page .carousel-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%
+    max-height: 470px
+}
 .landing-page .services {
     padding-top: 60px
 }
