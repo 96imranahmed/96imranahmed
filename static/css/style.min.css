@@ -7481,7 +7481,8 @@ body.landing-page {
     font-size: 15px !important;
 }
 .landing-page .row-resume{
-    text-align: center; 
+    text-align: center;
+    padding-bottom: 20px;
 }
 .landing-page .services {
     padding-top: 60px
