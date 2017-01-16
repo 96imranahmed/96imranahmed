@@ -1,4 +1,8 @@
 # slider section data
-- img: 'static/img/landing/cover/a.jpg'
-- img: 'static/img/landing/cover/b.jpg'
-- img: 'static/img/landing/cover/c.jpg'
+- img: 'static/img/landing/cover/kings.jpg'
+- img: 'static/img/landing/cover/caius.jpg'
+- img: 'static/img/landing/cover/cuer_kings.jpg'
+- img: 'static/img/landing/cover/cuer.jpg'
+- img: 'static/img/landing/cover/iss.jpg'
+- img: 'static/img/landing/cover/MIT_front.jpg'
+- img: 'static/img/landing/cover/MIT_over.jpg'
