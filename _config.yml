@@ -18,7 +18,10 @@ author:
   github_username: '96imranahmed'
   linkedin_username: '96imranahmed'
   avatar: 'static/img/landing/Imran.jpg'
-  desc: 'I’m a third-year university student currently studying Computer Science at MIT (with an emphasis on Machine Learning). I''m part of the Cambridge-MIT Exchange Program and will return to Cambridge University to complete my masters in Information Engineering next year. <p>I''m very interested in entrepreneurship within the technology sector and I am currently looking for Product Manager Internship opportunities in these areas.</p><p>I''m a big fan of hackathons and have had the opportunity to work with some incredible people while at University on some very cool projects!</p>'
+  desc: 'I’m a third-year university student currently studying Computer Science at MIT. I''m part of the Cambridge-MIT Exchange Program and will return to Cambridge University to complete my masters in Information Engineering next year.
+
+  <p>I''m interested in entrepreneurship within the technology sector and am currently looking for Product Manager Internship opportunities in these areas.</p>'
+
 # google analytics
 ga:
   id: UA-89916114-1 #Personal Tracking id
