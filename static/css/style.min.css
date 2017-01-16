@@ -3722,6 +3722,12 @@ body.boxed-layout #wrapper {
     overflow: hidden
 }
 
+.vote-icon {
+    text-align: center;
+    font-size: 38px;
+    color: #2980b9 !important;
+}
+
 a {
     cursor: pointer
 }
@@ -6194,12 +6200,6 @@ table.shoping-cart-table tr td:last-child {
     color: #e67e22
 }
 
-.vote-icon {
-    text-align: right;
-    font-size: 38px;
-    color: #2980b9
-}
-
 .lightBoxGallery,
 .open-small-chat {
     text-align: center
@@ -7445,7 +7445,7 @@ body.landing-page {
 }
 
 .landing-page .carousel{
-    height: 40%;
+    height: 60%;
 }
 .landing-page .carousel-cell{
     width: 100%; /* full width */
@@ -7463,6 +7463,25 @@ body.landing-page {
     min-width: 100%;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+
+.landing-page .resume-btn{
+    background:#e67e22;
+    color: #fff !important;
+}
+
+.landing-page .row-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page .about-desc{
+    color: #878888;
+    font-size: 15px !important;
+}
+.landing-page .row-resume{
+    text-align: center; 
 }
 .landing-page .services {
     padding-top: 60px
