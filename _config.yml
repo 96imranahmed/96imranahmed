@@ -19,9 +19,9 @@ author:
   linkedin_username: '96imranahmed'
   avatar: 'static/img/landing/Imran.jpg'
   desc: '
-  I’m a third-year university student currently studying Computer Science at MIT. I''m part of the Cambridge-MIT Exchange Program and will return to Cambridge University to complete my masters in Information Engineering next year.
+  I’m a third-year university student currently studying <b>Computer Science at MIT</b>. I''m part of the Cambridge-MIT Exchange Program and will return to Cambridge University to complete my masters in Information Engineering next year.
   <br/><br/>
-  I''m interested in entrepreneurship within the technology sector and am currently looking for Product Manager Internship opportunities in these areas.'
+  I''m interested in entrepreneurship within the technology sector and am currently looking for <b>Product Manager internship opportunities</b> in these areas.'
 
 # google analytics
 ga:
