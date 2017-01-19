@@ -9,7 +9,7 @@ permalink: /
 <script type="text/javascript">
     var lastWindowWidth = $(this).width();
     $(document).ready(function() {
-        var $carousel = $('.carousel').flickity({
+        var $carousel = $('.carousel-start').flickity({
             cellAlign: 'left',
             contain: true,
             autoPlay: true,
@@ -17,7 +17,7 @@ permalink: /
             pauseAutoPlayOnHover: false,
             wrapAround: true
         });
-        $('.carousel').mouseleave(function() {
+        $('.carousel-start').mouseleave(function() {
             $carousel.flickity('playPlayer')
         });
     });
@@ -66,14 +66,14 @@ permalink: /
     </nav>
 </div>
 
-<div class="carousel-large carousel">
+<div class="carousel-large carousel-start">
     {% for slider in site.data.slider %}
         {% if slider.large == '1' %}
         <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
         {% endif %}
     {% endfor %}
 </div>
-<div class="carousel-small carousel">
+<div class="carousel-small carousel-start">
     {% for slider in site.data.slider %}
         {% if slider.large == '0' %}
         <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>

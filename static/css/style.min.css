@@ -9,6 +9,10 @@ button.dim {
     text-transform: uppercase
 }
 
+.landing_page div {
+  box-sizing: border-box;
+}
+
 .chat-element,
 .chat-photo,
 .fc-button,
@@ -7758,11 +7762,6 @@ body.landing-page {
         padding-right: 0;
         padding-left: 0;
         border-radius: 4px
-    }
-    .landing-page .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 1.4
     }
     .landing-page .featurette-heading {
         font-size: 50px
