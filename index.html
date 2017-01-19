@@ -50,9 +50,18 @@ permalink: /
     </nav>
 </div>
 
-<div class="carousel">
+<div class="carousel-large carousel">
     {% for slider in site.data.slider %}
-    <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
+        {% if slider.large == '1' %}
+        <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
+        {% endif %}
+    {% endfor %}
+</div>
+<div class="carousel-small carousel">
+    {% for slider in site.data.slider %}
+        {% if slider.large == '0' %}
+        <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
+        {% endif %}
     {% endfor %}
 </div>
 

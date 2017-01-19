@@ -1,8 +1,21 @@
 # slider section data
 - img: 'static/img/landing/cover/kings.jpg'
+  large: '0'
+
 - img: 'static/img/landing/cover/caius.jpg'
+  large: '0'
+
 - img: 'static/img/landing/cover/cuer_kings.jpg'
+  large: '0'
+
 - img: 'static/img/landing/cover/cuer.jpg'
+  large: '0'
+
 - img: 'static/img/landing/cover/iss.jpg'
+  large: '0'
+
 - img: 'static/img/landing/cover/MIT_front.jpg'
+  large: '0'
+
 - img: 'static/img/landing/cover/MIT_over.jpg'
+  large: '0'
