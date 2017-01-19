@@ -7,6 +7,7 @@ permalink: /
 <script src="/static/js/flickity.pkgd.min.js"></script>
 <link href="/static/css/flickity.css" rel="stylesheet" media="screen">
 <script type="text/javascript">
+    var lastWindowWidth = $(this).width();
     $(document).ready(function() {
         var $carousel = $('.carousel').flickity({
             cellAlign: 'left',
@@ -20,6 +21,21 @@ permalink: /
             $carousel.flickity('playPlayer')
         });
     });
+    $(window).resize(function() {
+    clearTimeout($.data(this, 'resizeTimer'));
+    $.data(this, 'resizeTimer', setTimeout(function() {
+        var $window = $(this),
+           windowWidth = $window.width();
+        if (windowWidth < 768 && lastWindowWidth > 768) {
+            window.location.reload()
+        }
+        else if(windowWidth > 768 && lastWindowWidth < 768){
+            window.location.reload()
+        }
+        lastWindowWidth = windowWidth;
+    }, 100));
+});
+
 </script>
 
 <div class="navbar-wrapper">
