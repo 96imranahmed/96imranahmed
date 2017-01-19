@@ -14,8 +14,14 @@
 - img: 'static/img/landing/cover/iss.jpg'
   large: '1'
 
+- img: 'static/img/landing/cover/mrj.jpg'
+  large: '1'
+
 - img: 'static/img/landing/cover/MIT_front.jpg'
   large: '1'
 
 - img: 'static/img/landing/cover/MIT_over.jpg'
+  large: '1'
+
+- img: 'static/img/landing/cover/hc.jpg'
   large: '0'
