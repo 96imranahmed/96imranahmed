@@ -1,6 +1,7 @@
 # careers section data
 - name:
     detail: Imran
+    image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
   date:
@@ -11,6 +12,7 @@
 
 - name:
     detail: Netease Game
+    image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: In Netease game, I learned game service system and use Python code for ops.
   date:
@@ -21,6 +23,7 @@
 
 - name:
     detail: Ucloud
+    image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
   date:
@@ -31,6 +34,7 @@
 
 - name:
     detail: Graduation
+    image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: At July 2013,I graduated from college and started my IT technology tour.
   date:

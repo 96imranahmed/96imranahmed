@@ -1,3 +1,19 @@
+<script type="text/javascript">
+    var lastWindowWidth = $(this).width();
+    $(document).ready(function() {
+        var $carousel = $('.project-carousel').flickity({
+            cellAlign: 'left',
+            contain: true,
+            autoPlay: true,
+            pageDots: true,
+            pauseAutoPlayOnHover: false,
+            wrapAround: true
+        });
+        $('.project-carousel').mouseleave(function() {
+            $carousel.flickity('playPlayer')
+        });
+    });
+</script>
 <div class="container" id="i18_projects">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
@@ -18,6 +34,11 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
+                  <div class="project-carousel">
+                      {% for images in project.images %}
+                          <div class="project-carousel-cell"><img class="project-carousel-image" src="{{ images.img | prepend: site.baseurl }}" alt=""></div>
+                      {% endfor %}
+                  </div>
                   <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4><a href="{{ project.url | prepend: 'https://github.com' }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>

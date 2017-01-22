@@ -4,15 +4,15 @@
   tpl: 'about.html'
   css: ''
 
-- id: 'career'
-  name: 'Career'
-  tpl: 'career.html'
-  css: 'timeline'
-
 - id: 'projects'
   name: 'Projects'
   tpl: 'projects.html'
   css: 'project'
+
+- id: 'career'
+  name: 'Career'
+  tpl: 'career.html'
+  css: 'timeline'
 
 - id: 'links'
   name: 'Contact'
