@@ -39,7 +39,6 @@
                           <div class="project-carousel-cell"><img class="project-carousel-image" src="{{ images.img | prepend: site.baseurl }}" alt=""></div>
                       {% endfor %}
                   </div>
-                  <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4><a href="{{ project.url | prepend: 'https://github.com' }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
                   {% if project.url %}
