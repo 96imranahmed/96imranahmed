@@ -3,14 +3,16 @@
   text: '<b>UK</b>: +44 7761 303035 <br/> <b>US</b>: +1 (857) 999 5712'
   href: ''
 
+- icon: envelope-o
+  text: '96imranahmed@gmail.com'
+  href: 'href="mailto:96imranahmed@gmail.com"'
+
 - icon: github
   text: /96imranahmed
-  href: 'href="https://github.com/96imranahmed"'
+  href: 'href="https://github.com/96imranahmed" target="_blank"'
 
 - icon: linkedin
   text: /in/96imranahmed
-  href: 'href="https://www.linkedin.com/in/96imranahmed"'
+  href: 'href="https://www.linkedin.com/in/96imranahmed" target="_blank"'
 
-- icon: github
-  text: 'Hi there!'
-  href: ''
+
