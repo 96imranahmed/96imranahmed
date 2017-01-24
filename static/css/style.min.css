@@ -2841,59 +2841,7 @@ label.error {
     font-size: 66px
 }
 
-.forum-item {
-    margin: 10px 0;
-    padding: 10px 0 20px;
-    border-bottom: 1px solid #f1f1f1
-}
 
-.views-number {
-    font-size: 24px;
-    line-height: 18px;
-    font-weight: 400
-}
-
-.forum-container,
-.forum-post-container {
-    padding: 30px!important
-}
-
-.forum-item .forum-sub-title {
-    color: #999;
-    margin-left: 50px
-}
-
-.forum-title {
-    margin: 15px 0
-}
-
-.forum-icon {
-    float: left;
-    width: 30px;
-    margin-right: 20px
-}
-
-a.forum-item-title {
-    color: inherit;
-    display: block;
-    font-size: 18px;
-    font-weight: 600
-}
-
-a.forum-item-title:hover {
-    color: inherit
-}
-
-.forum-icon .fa {
-    font-size: 30px;
-    margin-top: 8px;
-    color: #9b9b9b
-}
-
-.forum-item.active .fa,
-.forum-item.active a.forum-item-title {
-    color: #e67e22
-}
 
 @media (max-width:992px) {
     .forum-info {
@@ -5626,319 +5574,11 @@ dd.project-people {
     margin-top: 5px;
     display: block
 }
-
-.chat-avatar,
-.chat-discussion .chat-message.left .message-avatar {
-    float: left;
-    margin-right: 10px
-}
-
 .project-files li a {
     font-size: 11px;
     color: #676a6c;
     margin-left: 10px;
     line-height: 22px
-}
-
-.faq-question,
-.faq-question:hover {
-    color: #e67e22
-}
-
-.faq-item {
-    padding: 20px;
-    margin-bottom: 2px;
-    background: #fff
-}
-
-.faq-question {
-    font-size: 18px
-}
-
-.faq-answer {
-    margin-top: 10px;
-    background: #f3f3f4;
-    border: 1px solid #e7eaec;
-    border-radius: 3px;
-    padding: 15px
-}
-
-.faq-item .tag-item {
-    background: #f3f3f4;
-    padding: 2px 6px;
-    font-size: 10px
-}
-
-.message-input {
-    height: 90px!important
-}
-
-.chat-avatar {
-    white: 36px;
-    height: 36px
-}
-
-.chat-user-name {
-    padding: 10px
-}
-
-.chat-user {
-    padding: 8px 10px;
-    border-bottom: 1px solid #e7eaec
-}
-
-.chat-user a {
-    color: inherit
-}
-
-.chat-view {
-    z-index: 20012
-}
-
-.chat-statistic,
-.chat-users {
-    margin-left: -30px
-}
-
-@media (max-width:992px) {
-    .chat-statistic,
-    .chat-users {
-        margin-left: 0
-    }
-}
-
-.chat-view .ibox-content {
-    padding: 0
-}
-
-.chat-message,
-.message {
-    padding: 10px 20px
-}
-
-.message-avatar {
-    height: 48px;
-    width: 48px;
-    border: 1px solid #e7eaec;
-    border-radius: 4px;
-    margin-top: 1px
-}
-
-.chat-discussion,
-.chat-users {
-    overflow-y: auto;
-    height: 400px
-}
-
-.chat-discussion .chat-message.right .message-avatar {
-    float: right;
-    margin-left: 10px
-}
-
-.message {
-    background-color: #fff;
-    border: 1px solid #e7eaec;
-    text-align: left;
-    position: relative;
-    border-radius: 4px
-}
-
-.chat-discussion .chat-message.left .message-date {
-    float: right
-}
-
-.chat-discussion .chat-message.right .message-date {
-    float: left
-}
-
-.chat-discussion .chat-message.left .message {
-    text-align: left;
-    margin-left: 55px
-}
-
-.chat-discussion .chat-message.right .message {
-    text-align: right;
-    margin-right: 55px
-}
-
-.message-date {
-    font-size: 10px;
-    color: #888
-}
-
-.client-link,
-.client-link:hover {
-    color: inherit
-}
-
-.chat-discussion {
-    background: #eee;
-    padding: 15px
-}
-
-.chat-message-form .form-group {
-    margin-bottom: 0
-}
-
-.jstree-open>.jstree-anchor>.fa-folder:before {
-    content: "\f07c"
-}
-
-.jstree-default .jstree-icon.none {
-    width: 0
-}
-
-.clients-list {
-    margin-top: 20px
-}
-
-.clients-list .tab-pane {
-    position: relative;
-    height: 600px
-}
-
-.client-detail {
-    position: relative;
-    height: 620px
-}
-
-.clients-list table tr td {
-    height: 46px;
-    vertical-align: middle;
-    border: none
-}
-
-.article h1,
-.blog h2 {
-    font-weight: 700
-}
-
-.client-avatar {
-    width: 42px
-}
-
-.client-avatar img {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%
-}
-
-.contact-type {
-    width: 20px;
-    color: #c1c3c4
-}
-
-.client-status {
-    text-align: left
-}
-
-.client-detail .vertical-timeline-content p {
-    margin: 0
-}
-
-.client-detail .vertical-timeline-icon.gray-bg {
-    color: #a7aaab
-}
-
-.clients-list .nav-tabs>li.active>a,
-.clients-list .nav-tabs>li.active>a:focus,
-.clients-list .nav-tabs>li.active>a:hover {
-    border-bottom: 1px solid #fff
-}
-
-.blog .btn,
-.blog h5 {
-    margin: 0 0 5px
-}
-
-.article h1 {
-    font-size: 48px;
-    color: #2F4050
-}
-
-.article p {
-    font-size: 15px;
-    line-height: 26px
-}
-
-.article-title {
-    text-align: center;
-    margin: 40px 0 100px
-}
-
-.article .ibox-content {
-    padding: 40px
-}
-
-.issue-tracker .btn-link {
-    color: #e67e22
-}
-
-table.issue-tracker tbody tr td {
-    vertical-align: middle;
-    height: 50px
-}
-
-.issue-info {
-    width: 50%
-}
-
-.issue-info a {
-    font-weight: 600;
-    color: #676a6c
-}
-
-.team-members {
-    margin: 10px 0
-}
-
-.team-members img.img-circle {
-    width: 42px;
-    height: 42px;
-    margin-bottom: 5px
-}
-
-.sortable-list {
-    padding: 10px 0
-}
-
-.agile-list {
-    list-style: none;
-    margin: 0
-}
-
-.agile-list li {
-    background: #FAFAFB;
-    border: 1px solid #e7eaec;
-    margin: 0 0 10px;
-    padding: 10px;
-    border-radius: 2px
-}
-
-.agile-list li:hover {
-    cursor: pointer;
-    background: #fff
-}
-
-.agile-list li.warning-element {
-    border-left: 3px solid #f8ac59
-}
-
-.agile-list li.danger-element {
-    border-left: 3px solid #ed5565
-}
-
-.agile-list li.info-element {
-    border-left: 3px solid #1c84c6
-}
-
-.agile-list li.success-element {
-    border-left: 3px solid #e67e22
-}
-
-.agile-detail {
-    margin-top: 5px;
-    font-size: 12px
 }
 
 ins {
@@ -5950,470 +5590,7 @@ del {
     background-color: #ffc6c6
 }
 
-.cart-product-imitation,
-.product-imitation {
-    text-align: center;
-    background-color: #f8f8f9
-}
 
-.product-box {
-    padding: 0;
-    border: 1px solid #e7eaec
-}
-
-.product-box.active,
-.product-box:hover {
-    border: 1px solid transparent;
-    -webkit-box-shadow: 0 3px 7px 0 #a8a8a8;
-    -moz-box-shadow: 0 3px 7px 0 #a8a8a8;
-    box-shadow: 0 3px 7px 0 #a8a8a8
-}
-
-.product-imitation {
-    padding: 90px 0;
-    color: #bebec3;
-    font-weight: 600
-}
-
-.cart-product-imitation {
-    padding-top: 30px;
-    height: 80px;
-    width: 80px
-}
-
-.product-imitation.xl {
-    padding: 120px 0
-}
-
-.product-desc {
-    padding: 20px;
-    position: relative
-}
-
-.ecommerce .tag-list {
-    padding: 0
-}
-
-.ecommerce .fa-star {
-    color: #d1dade
-}
-
-.ecommerce .fa-star.active {
-    color: #f8ac59
-}
-
-.ecommerce .note-editor {
-    border: 1px solid #e7eaec
-}
-
-table.shoping-cart-table {
-    margin-bottom: 0
-}
-
-table.shoping-cart-table tr td {
-    border: none;
-    text-align: right
-}
-
-.social-footer,
-.vote-item {
-    border-top: 1px solid #e7eaec
-}
-
-table.shoping-cart-table tr td.desc,
-table.shoping-cart-table tr td:first-child {
-    text-align: left
-}
-
-table.shoping-cart-table tr td:last-child {
-    width: 80px
-}
-
-.product-name {
-    font-size: 16px;
-    font-weight: 600;
-    color: #676a6c;
-    margin: 2px 0 5px
-}
-
-.product-name:focus,
-.product-name:hover {
-    color: #e67e22
-}
-
-.product-price {
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #e67e22;
-    padding: 6px 12px;
-    position: absolute;
-    top: -32px;
-    right: 0
-}
-
-.product-detail .ibox-content {
-    padding: 30px 30px 50px
-}
-
-.image-imitation {
-    background-color: #f8f8f9;
-    text-align: center;
-    padding: 200px 0
-}
-
-.product-main-price small {
-    font-size: 10px
-}
-
-.product-images {
-    margin: 0 20px
-}
-
-.social-feed-separated .social-feed-box {
-    margin-left: 62px
-}
-
-.social-feed-separated .social-avatar {
-    float: left;
-    padding: 0
-}
-
-.social-feed-separated .social-avatar img {
-    width: 52px;
-    height: 52px;
-    border: 1px solid #e7eaec
-}
-
-.social-feed-separated .social-feed-box .social-avatar {
-    padding: 15px 15px 0;
-    float: none
-}
-
-.social-feed-box {
-    border: 1px solid #e7eaec;
-    background: #fff;
-    margin-bottom: 15px
-}
-
-.article .social-feed-box {
-    margin-bottom: 0;
-    border-bottom: none
-}
-
-.article .social-feed-box:last-child {
-    margin-bottom: 0;
-    border-bottom: 1px solid #e7eaec
-}
-
-.article .social-feed-box p {
-    font-size: 13px;
-    line-height: 18px
-}
-
-.social-action {
-    margin: 15px
-}
-
-.social-comment .social-comment,
-.vote-info,
-.vote-title {
-    margin-left: 45px
-}
-
-.social-avatar {
-    padding: 15px 15px 0
-}
-
-.social-avatar img {
-    height: 40px;
-    width: 40px;
-    margin-right: 10px
-}
-
-.social-avatar .media-body a {
-    font-size: 14px
-}
-
-.social-body {
-    padding: 15px
-}
-
-.social-body img {
-    margin-bottom: 10px
-}
-
-.social-footer {
-    padding: 10px 15px;
-    background: #f9f9f9
-}
-
-.social-footer .social-comment img {
-    width: 32px;
-    margin-right: 10px
-}
-
-.social-comment:first-child {
-    margin-top: 0
-}
-
-.social-comment {
-    margin-top: 15px
-}
-
-.social-comment textarea {
-    font-size: 12px
-}
-
-.vote-item {
-    padding: 20px 25px;
-    background: #fff
-}
-
-.vote-item:last-child {
-    border-bottom: 1px solid #e7eaec
-}
-
-.vote-item:hover {
-    background: #fbfbfb
-}
-
-.vote-actions {
-    float: left;
-    width: 30px;
-    margin-right: 15px;
-    text-align: center;
-    font-weight: 600
-}
-
-.vote-actions a {
-    color: #e67e22;
-    font-weight: 600
-}
-
-.vote-title,
-.vote-title:focus,
-.vote-title:hover {
-    color: inherit
-}
-
-.vote-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 2px
-}
-
-.vote-info,
-.vote-info a {
-    color: #b4b6b8;
-    font-size: 12px
-}
-
-.vote-info a {
-    margin-right: 10px
-}
-
-.vote-info a:hover {
-    color: #e67e22
-}
-
-.lightBoxGallery,
-.open-small-chat {
-    text-align: center
-}
-
-.vote-icon.active {
-    color: #e67e22
-}
-
-body.body-small .vote-icon {
-    display: none
-}
-
-.lightBoxGallery img {
-    margin: 5px
-}
-
-#small-chat {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 100
-}
-
-#small-chat .badge {
-    position: absolute;
-    top: -3px;
-    right: -4px
-}
-
-.open-small-chat {
-    height: 38px;
-    width: 38px;
-    display: block;
-    background: #e67e22;
-    padding: 9px 8px;
-    color: #fff;
-    border-radius: 50%
-}
-
-.open-small-chat:hover {
-    color: #fff;
-    background: #e67e22
-}
-
-.small-chat-box {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 75px;
-    background: #fff;
-    border: 1px solid #e7eaec;
-    width: 230px;
-    height: 320px;
-    border-radius: 4px
-}
-
-.small-chat-box.active,
-.small-chat-box.ng-small-chat {
-    display: block
-}
-
-.body-small .small-chat-box {
-    bottom: 70px;
-    right: 20px
-}
-
-.small-chat-box .heading {
-    background: #2f4050;
-    padding: 8px 15px;
-    font-weight: 700;
-    color: #fff
-}
-
-.small-chat-box .chat-date {
-    opacity: .6;
-    font-size: 10px;
-    font-weight: 400
-}
-
-.small-chat-box .content {
-    padding: 15px
-}
-
-.small-chat-box .content .author-name {
-    font-weight: 700;
-    margin-bottom: 3px;
-    font-size: 11px
-}
-
-.small-chat-box .content>div {
-    padding-bottom: 20px
-}
-
-.small-chat-box .content .chat-message {
-    padding: 5px 10px;
-    border-radius: 6px;
-    font-size: 11px;
-    line-height: 14px;
-    max-width: 80%;
-    background: #f3f3f4;
-    margin-bottom: 10px
-}
-
-.small-chat-box .content .chat-message.active {
-    background: #e67e22;
-    color: #fff
-}
-
-.small-chat-box .content .left {
-    text-align: left;
-    clear: both
-}
-
-.small-chat-box .content .left .chat-message {
-    float: left
-}
-
-.metismenu .plus-minus,
-.metismenu .plus-times,
-.small-chat-box .content .right .chat-message {
-    float: right
-}
-
-.small-chat-box .content .right {
-    text-align: right;
-    clear: both
-}
-
-.small-chat-box .form-chat {
-    padding: 10px
-}
-
-.metismenu .arrow {
-    float: right;
-    line-height: 1.42857
-}
-
-.metismenu .glyphicon.arrow:before {
-    content: "\e079"
-}
-
-.metismenu .active>a>.glyphicon.arrow:before {
-    content: "\e114"
-}
-
-.metismenu .fa.arrow:before {
-    content: "\f104"
-}
-
-.metismenu .active>a>.fa.arrow:before {
-    content: "\f107"
-}
-
-.metismenu .ion.arrow:before {
-    content: "\f3d2"
-}
-
-.metismenu .active>a>.ion.arrow:before {
-    content: "\f3d0"
-}
-
-.metismenu .fa.plus-minus:before,
-.metismenu .fa.plus-times:before {
-    content: "\f067"
-}
-
-.metismenu .active>a>.fa.plus-times {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg)
-}
-
-.metismenu .active>a>.fa.plus-minus:before {
-    content: "\f068"
-}
-
-.metismenu .collapse {
-    display: none
-}
-
-.metismenu .collapse.in {
-    display: block
-}
-
-.metismenu .collapsing {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    -webkit-transition-timing-function: ease;
-    transition-timing-function: ease;
-    -webkit-transition-duration: .35s;
-    transition-duration: .35s;
-    -webkit-transition-property: height, visibility;
-    transition-property: height, visibility
-}
 
 .sk-spinner-rotating-plane.sk-spinner {
     width: 30px;
@@ -7511,6 +6688,7 @@ body.landing-page {
 .landing-page .resume-btn {
     background: #e67e22;
     color: #fff !important;
+    margin: 0 auto;
 }
 
 .landing-page .row-align {
@@ -7665,6 +6843,55 @@ body.landing-page {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     margin-top: 60px
+}
+
+#contact-row-4 {
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+#contact-row-4 .col-12 {
+    height: 120px;
+    overflow: hidden;
+    padding-top: 10px;
+    transition: all ease-in .5s;
+}
+
+#contact-row-4 img {
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#contact-row-4 .col-12:hover {
+    height: 120px;
+    padding-top: 0;
+}
+
+#contact-row-4 .col-12 .hover-text {
+    display: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media all and (max-width: 550px) {
+    #contact-row-4 {
+        display: block;
+    }
+    #contact-row-4 .col-12 {
+        display: block; 
+        height: 120px;
+        float: none; 
+        width: 100%;
+    }
+    #contact-row-4 .col-12:hover {
+        height: 120px;
+    }
 }
 
 .landing-page section.timeline {
