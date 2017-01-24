@@ -6859,7 +6859,7 @@ body.landing-page {
 }
 
 #contact-row-4 .col-12 {
-    height: 100px;
+    height: 80px;
     overflow: hidden;
     padding-top: 5px;
     transition: all ease-in .5s;
@@ -6873,7 +6873,7 @@ body.landing-page {
 }
 
 #contact-row-4 .col-12:hover {
-    height: 100px;
+    height: 80px;
     padding-top: 0px;
 }
 
