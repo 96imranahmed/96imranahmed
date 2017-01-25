@@ -6861,7 +6861,7 @@ body.landing-page {
 #contact-row-4 .col-12 {
     height: 80px;
     overflow: hidden;
-    padding-top: 5px;
+    padding-top: 10px;
     transition: all ease-in .5s;
 }
 
@@ -6879,7 +6879,7 @@ body.landing-page {
 
 #contact-row-4 .col-12 .hover-text {
     display: none;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @media all and (max-width: 1000px) {
@@ -6889,13 +6889,13 @@ body.landing-page {
     }
     #contact-row-4 .col-12 {
         display: inline-block; 
-        height: 120px;
-        padding-top: 20px;
+        max-height: 80px;
+        padding-top: 10px;
         float: none; 
         width: 50%;
     }
     #contact-row-4 .col-12:hover {
-        height: 120px;
+        max-height: 80px;
         padding-top: 0px;
     }
     #contact-row-4 .col-12 .hover-text {
@@ -6905,10 +6905,6 @@ body.landing-page {
     }
 }
 
-.landing-page .fa-links {
-    color: FFF;
-}
-
 @media all and (max-width: 600px) {
     #contact-row-4 {
         display: block;
@@ -6916,7 +6912,7 @@ body.landing-page {
     #contact-row-4 .col-12 {
         display: block; 
         height: 120px;
-        padding-top: 20px;
+        padding-top: 10px;
         float: none; 
         width: 100%;
     }
