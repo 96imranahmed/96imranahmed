@@ -6685,6 +6685,62 @@ body.landing-page {
     position: absolute;
 }
 
+.link_effect {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    justify-content:space-between;
+}
+
+.link_effect a {
+  text-decoration: none;
+  color: rgba(230, 126, 34, 1);
+  position: relative;
+  padding: 16px 7px;
+  border-top: 2px solid rgba(230, 126, 34, 0);
+  border-bottom: 2px solid rgba(230, 126, 34, 0);
+  transition: padding .3s,border-color .3s;
+}
+
+.link_effect a:focus, a:hover {
+  padding: 5px 7px;
+  border-color: rgba(230, 126, 34, 1);
+  outline: none;
+}
+
+.link_effect a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 0;
+  color: rgba(230, 126, 34, 0);
+  border-left: 2px solid rgba(230, 126, 34, 0);
+  content: attr(data-text);
+  transition: max-height .3s,border-color 0s;
+}
+
+.link_effect a::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  max-height: 0;
+  color: rgba(230, 126, 34, 0);
+  border-right: 2px solid rgba(230, 126, 34, 0);
+  content: attr(data-text);
+  transition: max-height .3s,border-color 0s;
+}
+
+.link_effect a:focus::before, a:hover::before, a:focus::after, a:hover::after {
+  max-height: 100%;
+  transition-delay: .28s;
+  border-color: rgba(230, 126, 34, 1);
+}
+
+
 .landing-page .resume-btn {
     background: #e67e22;
     color: #fff !important;
@@ -6911,18 +6967,18 @@ body.landing-page {
     }
     #contact-row-4 .col-12 {
         display: block; 
-        height: 120px;
-        padding-top: 10px;
+        height: 80px;
+        padding-top: 0px;
         float: none; 
         width: 100%;
     }
     #contact-row-4 .col-12:hover {
-        height: 120px;
+        height: 80px;
         padding-top: 0px;
     }
     #contact-row-4 .col-12 .hover-text {
     display: none;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     }
 }
