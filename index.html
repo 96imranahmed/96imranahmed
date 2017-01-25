@@ -9,11 +9,7 @@ permalink: /
 <script type="text/javascript">
     var lastWindowWidth = $(this).width();
     $(window).on('orientationchange', function(e) {
-     $.mobile.changePage(window.location.href, {
-        allowSamePageTransition: true,
-        transition: 'none',
-        reloadPage: true
-    });
+        window.location.reload()
     });
     $(document).ready(function() {
         var $carousel = $('.carousel-start').flickity({
