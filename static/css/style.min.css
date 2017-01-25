@@ -3017,7 +3017,7 @@ label.error {
 .vertical-timeline-content {
     position: relative;
     margin-left: 60px;
-    background: #f4f4f4;
+    background: #ffffff; /*#f4f4f4;*/
     border-radius: .25em;
     padding: 1em
 }
@@ -5551,7 +5551,7 @@ dd.project-people {
 }
 
 .project-title a {
-    font-size: 14px;
+    font-size: 16px;
     color: #676a6c;
     font-weight: 600
 }
@@ -6639,6 +6639,25 @@ body.landing-page {
     height: auto
 }
 
+.landing-page .word-centre{
+    margin: 0 auto;
+}
+
+.landing-page .word-cloud{
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    height: 300px;
+}
+
+.landing-page .word-cloud a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom:solid 1px transparent;
+    padding:4px;
+}
+
 .landing-page .project-carousel{
     margin: 0 auto;
     height: 150px;
@@ -6685,14 +6704,16 @@ body.landing-page {
     position: absolute;
 }
 
-.link_effect {
+.link-effect {
     width: 100%;
     margin: 0 auto;
+    height: 42px;
     display: inline-block;
     justify-content:space-between;
+    padding-bottom: 20px;
 }
 
-.link_effect a {
+.link-effect a {
   text-decoration: none;
   color: rgba(230, 126, 34, 1);
   position: relative;
@@ -6700,15 +6721,17 @@ body.landing-page {
   border-top: 2px solid rgba(230, 126, 34, 0);
   border-bottom: 2px solid rgba(230, 126, 34, 0);
   transition: padding .3s,border-color .3s;
+  font-size: 14px;
+
 }
 
-.link_effect a:focus, a:hover {
+.link-effect a:focus, a:hover {
   padding: 5px 7px;
   border-color: rgba(230, 126, 34, 1);
   outline: none;
 }
 
-.link_effect a::before {
+.link-effect a::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -6721,7 +6744,7 @@ body.landing-page {
   transition: max-height .3s,border-color 0s;
 }
 
-.link_effect a::after {
+.link-effect a::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -6734,7 +6757,7 @@ body.landing-page {
   transition: max-height .3s,border-color 0s;
 }
 
-.link_effect a:focus::before, a:hover::before, a:focus::after, a:hover::after {
+.link-effect a:focus::before, a:hover::before, a:focus::after, a:hover::after {
   max-height: 100%;
   transition-delay: .28s;
   border-color: rgba(230, 126, 34, 1);

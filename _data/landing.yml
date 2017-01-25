@@ -4,6 +4,11 @@
   tpl: 'about.html'
   css: ''
 
+- id: 'skills'
+  name: 'Skills'
+  tpl: 'skills.html'
+  css: 'skills'
+
 - id: 'projects'
   name: 'Projects'
   tpl: 'projects.html'
