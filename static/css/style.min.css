@@ -6657,6 +6657,42 @@ body.landing-page {
     border-bottom:solid 1px transparent;
     padding:4px;
 }
+/*.landing-page .navbar-brand {
+    justify-content:space-between;
+    vertical-align: middle;
+    display: flex !important;
+    align-items: center;
+}
+.landing-page .navbar-title {
+    vertical-align: middle;
+    line-height: 100%;
+    padding-left: 10px;
+}
+
+.landing-page .navbar-brand .fa{
+
+}
+*/
+
+.go-top {
+    z-index: 1000; 
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.go-top:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 12px;
+    padding: 1em;
+}
 
 .landing-page .project-carousel{
     margin: 0 auto;
@@ -7137,7 +7173,7 @@ body.landing-page {
 
 @media (max-width:768px) {
     .landing-page .navbar.navbar-scroll .navbar-brand {
-        margin-top: 6px
+        margin-top: 6px;
     }
     .landing-page .navbar-default {
         background-color: #fff;
