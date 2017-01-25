@@ -1,0 +1,43 @@
+<script type="text/javascript">
+	var $word_array = [
+		{text: "Lorem", weight: 15},
+		{text: "Ipsum", weight: 5, link: "#"},
+		{text: "Dolor", weight: 6, html: {title: "I can haz any html attribute"}},
+		{text: "Sit", weight: 7},
+		{text: "Amet", weight: 5},
+		{text: "Sit", weight: 8},
+		{text: "Amet", weight: 6.2},
+		{text: "Consectetur", weight: 5},
+		{text: "Adipiscing", weight: 5},
+          // ...as many words as you want
+      ];
+    $(window).resize(function() {
+    clearTimeout($.data(this, 'resizeTimer'));
+    $.data(this, 'resizeTimer', setTimeout(function() {
+        var $window = $(this),
+        windowWidth = $window.width();
+        $('.word-cloud').empty();
+ 		$('.word-cloud').jQCloud($word_array, {
+			/*colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],*/
+		});
+        lastWindowWidth = windowWidth;
+    }, 200));
+	});
+	$(document).ready(function() {
+	$('.word-cloud').empty().jQCloud($word_array, {
+		/*colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],*/
+	});
+	});
+</script>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span>My Skills</span></h1>
+            <h4><span>Click on a skill below to jump to examples from my experience<span><h4>
+        </div>
+    </div>
+    <div class='word-centre'>
+    <div class="word-cloud"></div>
+    </div>
+</div>
