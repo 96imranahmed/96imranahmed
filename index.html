@@ -8,6 +8,13 @@ permalink: /
 <link href="/static/css/flickity.css" rel="stylesheet" media="screen">
 <script type="text/javascript">
     var lastWindowWidth = $(this).width();
+    $(window).on('orientationchange', function(e) {
+     $.mobile.changePage(window.location.href, {
+        allowSamePageTransition: true,
+        transition: 'none',
+        reloadPage: true
+    });
+    });
     $(document).ready(function() {
         var $carousel = $('.carousel-start').flickity({
             cellAlign: 'left',
