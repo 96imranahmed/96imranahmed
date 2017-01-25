@@ -322,7 +322,7 @@
           word.link.href = encodeURI(word.link.href).replace(/'/g, '%27');
         }
 
-        word_span.append($('<a>').attr(word.link).text(word.text));
+        word_span.append($('<a data-scroll>').attr(word.link).text(word.text));
       }
       else {
         word_span.text(word.text);
