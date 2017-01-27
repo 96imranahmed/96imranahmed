@@ -6746,14 +6746,13 @@ body.landing-page {
 
 .link-effect {
     width: 100%;
-    margin: 0 auto;
     height: 42px;
     display: inline-block;
-    justify-content:space-between;
     padding-bottom: 20px;
 }
 
 .link-effect a {
+  margin: 0 auto;
   text-decoration: none;
   color: rgba(230, 126, 34, 1);
   position: relative;
@@ -6803,6 +6802,13 @@ body.landing-page {
   border-color: rgba(230, 126, 34, 1);
 }
 
+.timeline-effect {
+    padding-bottom: 0px;
+    height: auto;
+}
+.career-combined {
+    text-align: center;
+}
 
 .landing-page .resume-btn {
     background: #e67e22;
