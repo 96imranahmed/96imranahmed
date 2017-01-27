@@ -3109,6 +3109,10 @@ label.error {
     }
 }
 
+.vertical-timeline-grey {
+    background: #f4f4f4 !important;
+}
+
 .tabs-container .panel-body {
     background: #fff;
     border: 1px solid #e7eaec;

@@ -19,6 +19,11 @@
   tpl: 'career.html'
   css: 'timeline'
 
+- id: 'awards'
+  name: 'Awards'
+  tpl: 'awards.html'
+  css: 'timeline'
+
 - id: 'links'
   name: 'Contact'
   tpl: 'links.html'

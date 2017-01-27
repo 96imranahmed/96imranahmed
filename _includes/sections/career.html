@@ -11,16 +11,23 @@
             {% for career in site.data.careers %}
             {% assign loopindex = forloop.index | modulo: 2 %}
                 <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                    <div class="vertical-timeline-icon navy-bg wow rotateIn" id="{{career.name.id}}">
                         <i class="fa {{ career.icon }}"></i>
                     </div>
                     <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
                         <div class="career-logo-div"><img class="career-logo" src="{{ career.name.image | prepend: site.baseurl }}" alt=""></div>
                         <div>
                         <h2 class="timeline-name"><span>{{ career.name.detail }}</span></h2>
+                          {% if career.urls %}
+                        <div class="link-effect timeline-effect">
+                          {% for lnk in career.urls %}
+                            <a href="{{lnk.url}}" data-text="{{lnk.name}}">{{lnk.name}}</a>
+                          {% endfor %}
+                        </div>
+                          {% endif %}
                         <p><span>{{ career.desc.detail }} </span></p>
                         <span class="vertical-date"><span> {{ career.date.detail }} </span>
-                        <br/> <small><span>{{ career.job.detail }}</span></small> </span>
+                        <br/> <small><span>{{ career.job.detail }}</span></small></span>
                         </div>
                     </div>
                 </div>

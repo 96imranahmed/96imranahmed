@@ -4,10 +4,6 @@
         e.stopPropagation();
     });
     
-    /***************
-    * = Hover text *
-    * Hover text for the last slide
-    ***************/
     $('.with-hover-text').hover(
         function(e) {
             $(this).css('overflow', 'visible');
@@ -29,7 +25,7 @@
             $(this).find('.hover-text')
                 .animate(
                     {
-                        paddingTop: '0',
+                        paddingTop: '0px',
                         opacity: 0
                     },
                     'fast',

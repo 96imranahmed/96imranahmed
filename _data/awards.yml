@@ -14,20 +14,6 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
   icon: fa-cloud
 
 - name:
-    id: MIT
-    detail: Massachussets Institute of Technology
-    image: 'static/img/landing/careers/MIT_logo.png'
-  desc:
-    detail: '<p>Cambridge-MIT exchange student concentrating in Computer Science (with an emphasis on Machine Learning).</p>
-<p>• Current GPA: <b>5.0</b></p>'
-
-  date:
-    detail: August 2016 - Present
-  job:
-    detail: Cambridge-MIT Exchange Student
-  icon: fa-cloud
-
-- name:
     id: Vivacity
     detail: Vivacity Labs, London
     image: 'static/img/landing/careers/vivacity.png'
@@ -45,12 +31,7 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
 - name:
     id: CUER
     detail: Cambridge University Eco Racing
-    image: 'static/img/landing/careers/cuer.png'
-  urls:
-    - name: Github
-      url: '/JiaKunUp/saplatform'
-    - name: Website
-      url: 'http://www.google.com'
+    image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: '<p>• Led a 10-person team to raise funds for this student-led organisation with an operating budget in excess of £1m.</p>
   <p> • Overhauled the team’s former sponsorship structure and implemented a formalised system to facilitate fundraising.</p>
@@ -74,19 +55,3 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
   job:
     detail: Circuit Design Intern
   icon: fa-cloud
-
-- name:
-    id: Cambridge
-    detail: University of Cambridge
-    image: 'static/img/landing/careers/UCam.png'
-  desc:
-    detail: '<p>Candidate for a Masters in Information Engineering with an expected graduation date in 2018.</p>
-<p>• 1st Year Classification: <b>First Class</b></p>
-<p>• 2nd Year Classification: <b>First Class</b></p>
-<p>• MIT GPA: <b>5.0</b></p>'
-  date:
-    detail: October 2014 - Present
-  job:
-    detail: Information Engineering Student
-  icon: fa-cloud
-
