@@ -1,57 +1,52 @@
 # careers section data
 - name:
-    id: UROP
-    detail: Interactive Robotics Lab, MIT
-    image: 'static/img/landing/careers/MIT_logo.png'
+    id: scholarship_senior
+    detail: Senior Scholarship, Caius College Cambridge
+    image: 'static/img/landing/awards/caius_logo.png'
   desc:
-    detail: '<p>• Developing an astronaut tracking system for the International Space Station as part of a joint research project between
-MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
-<p>• This will be implemented on an autonomous robot (“Astrobee”) which will be deployed on the ISS by 2018.</p>'
+    detail: '<p>Awarded a scholarship for my performance in 2nd year Tripos Examinations at Cambridge.</p>'
   date:
-    detail: September 2016 - Present
-  job:
-    detail: Undergraduate Researcher
+    detail: 2016
   icon: fa-cloud
 
 - name:
-    id: Vivacity
-    detail: Vivacity Labs, London
-    image: 'static/img/landing/careers/vivacity.png'
+    id: raeng
+    detail: RAEng Engineering Leaders Scholarship
+    image: 'static/img/landing/awards/raeng.png'
   desc:
-    detail: '<p>• Upgraded an outdated machine learning toolkit to give a 300% increase in training performance.</p>
-<p>• Designed an algorithm to optimise a neural net by automatically identifying incorrect output for further retraining and
-fine-tuning. This automated what was previously a time-intensive manual task.</p>
-<p>• Produced scripts to automate data retrieval from several sources for use in training machine learning algorithms.</p>'
+    detail: '<p>Awarded a £5,000 scholarship by the Royal Academy of Engineering for demonstrating 
+    strong leadership potential.</p>'
   date:
-    detail: June - August 2016
-  job:
-    detail: Computer Vision Intern
+    detail: 2016
   icon: fa-cloud
 
 - name:
-    id: CUER
-    detail: Cambridge University Eco Racing
-    image: 'static/img/landing/careers/vivacity.png'
+    id: scholarship_junior
+    detail: Junior Scholarship, Caius College Cambridge
+    image: 'static/img/landing/awards/caius_logo.png'
   desc:
-    detail: '<p>• Led a 10-person team to raise funds for this student-led organisation with an operating budget in excess of £1m.</p>
-  <p> • Overhauled the team’s former sponsorship structure and implemented a formalised system to facilitate fundraising.</p>
-  <p> • Sourced funds to employ a team of full-time students which allowed us to improve the quality of our vehicle design.</p>'
+    detail: '<p>Awarded a scholarship for my performance in 1st year Tripos Examinations at Cambridge.</p>'
   date:
-    detail: October 2015 - June 2016
-  job:
-    detail: Business Manager
+    detail: 2016
+  icon: fa-cloud
+
+
+- name:
+    id: arm_prize
+    detail: ARM Prize
+    image: 'static/img/landing/awards/ARM.png'
+  desc:
+    detail: '<p>Awarded a team prize for building the best robot in a competition for 1st year Cambridge Engineers.</p>'
+  date:
+    detail: 2016
   icon: fa-cloud
 
 - name:
-    id: Ultra
-    detail: Ultra Electronics Controls, Cambridge
-    image: 'static/img/landing/careers/ultra.jpg'
+    id: harvard_prie
+    detail: Harvard Book Prize
+    image: 'static/img/landing/awards/harvard.png'
   desc:
-    detail: '<p>• Developed high-level overviews of a safety-critical avionics system and identified areas for improvement in order to
-    guide the design of a safer system.</p>
-<p>• Built software to automate the time-intensive manual process of cross-checking materials with EU-compliant standards.</p>'
+    detail: '<p>Awarded an academic achievement prize by the Harvard Club UK.</p>'
   date:
-    detail: July - August 2015
-  job:
-    detail: Circuit Design Intern
+    detail: 2016
   icon: fa-cloud

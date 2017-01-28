@@ -28,8 +28,6 @@
   urls:
     - name: Github
       url: '/JiaKunUp/saplatform'
-    - name: Website
-      url: 'http://www.google.com'
   images:
     - img: 'static/img/landing/rsser.png'
   desc: Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.
