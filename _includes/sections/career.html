@@ -21,7 +21,7 @@
                           {% if career.urls %}
                         <div class="link-effect timeline-effect">
                           {% for lnk in career.urls %}
-                            <a href="{{lnk.url}}" data-text="{{lnk.name}}">{{lnk.name}}</a>
+                            <a href="{{lnk.url}}" target="_blank" data-text="{{lnk.name}}">{{lnk.name}}</a>
                           {% endfor %}
                         </div>
                         {% endif %}

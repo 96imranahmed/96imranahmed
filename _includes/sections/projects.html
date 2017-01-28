@@ -34,7 +34,7 @@
             {% else %}
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
-              <div class="team-member">
+              <div class="team-member" id={{project.id}}>
                   <div class="project-carousel">
                       {% for images in project.images %}
                           <div class="project-carousel-cell"><img class="project-carousel-image" src="{{ images.img | prepend: site.baseurl }}" alt=""></div>
@@ -46,7 +46,7 @@
                   <div class="link-effect">
                   {% if project.urls %}
                   {% for lnk in project.urls %}
-                    <a href="{{lnk.url}}" data-text="{{lnk.name}}">{{lnk.name}}</a>
+                    <a href="{{lnk.url}}" target="_blank" data-text="{{lnk.name}}">{{lnk.name}}</a>
                   {% endfor %}
                   {% endif %}
                   </div>

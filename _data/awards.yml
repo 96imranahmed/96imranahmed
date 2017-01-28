@@ -27,7 +27,7 @@
   desc:
     detail: '<p>Awarded a scholarship for my performance in 1st year Tripos Examinations at Cambridge.</p>'
   date:
-    detail: 2016
+    detail: 2015
   icon: fa-cloud
 
 
@@ -38,7 +38,7 @@
   desc:
     detail: '<p>Awarded a team prize for building the best robot in a competition for 1st year Cambridge Engineers.</p>'
   date:
-    detail: 2016
+    detail: 2014
   icon: fa-cloud
 
 - name:
@@ -48,5 +48,5 @@
   desc:
     detail: '<p>Awarded an academic achievement prize by the Harvard Club UK.</p>'
   date:
-    detail: 2016
+    detail: 2013
   icon: fa-cloud
