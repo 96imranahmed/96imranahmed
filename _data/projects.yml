@@ -1,5 +1,5 @@
 # projects section data
-- name: 'HackCambridge 2016'
+- name: 'HackCambridge 2017'
   id: 'HC2016'
   urls:
     - name: Devpost 
@@ -46,7 +46,7 @@
   desc: '<p>Created <b>Blackbox</b> - a Messenger bot that analysed natural language input and provided curated dating advice for users. Our team 
   was awarded the Facebook Prize at MIT’s flagship annual hackathon (comprising of over 1000 students).</p>'
 
-- name: 'HackCambridge 2015'
+- name: 'HackCambridge 2016'
   id: 'HC2015'
   urls:
     - name: Github
