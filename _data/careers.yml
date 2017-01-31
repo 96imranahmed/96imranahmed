@@ -11,7 +11,7 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
     detail: September 2016 - Present
   job:
     detail: Undergraduate Researcher
-  icon: fa-cloud
+  icon: fa-space-shuttle
 
 - name:
     id: MIT
@@ -25,7 +25,7 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
     detail: August 2016 - Present
   job:
     detail: Cambridge-MIT Exchange Student
-  icon: fa-cloud
+  icon: fa-university
 
 - name:
     id: Vivacity
@@ -40,7 +40,7 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
     detail: June - August 2016
   job:
     detail: Computer Vision Intern
-  icon: fa-cloud
+  icon: fa-video-camera
 
 - name:
     id: CUER
@@ -57,7 +57,7 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
     detail: October 2015 - June 2016
   job:
     detail: Business Manager
-  icon: fa-cloud
+  icon: fa-briefcase
 
 - name:
     id: Ultra
@@ -71,7 +71,7 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
     detail: July - August 2015
   job:
     detail: Circuit Design Intern
-  icon: fa-cloud
+  icon: fa-plane
 
 - name:
     id: Cambridge
@@ -86,5 +86,5 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
     detail: October 2014 - Present
   job:
     detail: Information Engineering Student
-  icon: fa-cloud
+  icon: fa-university
 

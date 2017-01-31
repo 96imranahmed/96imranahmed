@@ -6,8 +6,8 @@
   desc:
     detail: '<p>Awarded a scholarship for my performance in 2nd year Tripos Examinations at Cambridge.</p>'
   date:
-    detail: 2016
-  icon: fa-cloud
+    detail: June 2016
+  icon: fa-university
 
 - name:
     id: raeng
@@ -17,8 +17,8 @@
     detail: '<p>Awarded a £5,000 scholarship by the Royal Academy of Engineering for demonstrating 
     strong leadership potential.</p>'
   date:
-    detail: 2016
-  icon: fa-cloud
+    detail: February 2016
+  icon: fa-trophy
 
 - name:
     id: scholarship_junior
@@ -27,8 +27,8 @@
   desc:
     detail: '<p>Awarded a scholarship for my performance in 1st year Tripos Examinations at Cambridge.</p>'
   date:
-    detail: 2015
-  icon: fa-cloud
+    detail: June 2015
+  icon: fa-university
 
 
 - name:
@@ -38,8 +38,8 @@
   desc:
     detail: '<p>Awarded a team prize for building the best robot in a competition for 1st year Cambridge Engineers.</p>'
   date:
-    detail: 2014
-  icon: fa-cloud
+    detail: October 2014
+  icon: fa-trophy
 
 - name:
     id: harvard_prie
@@ -48,5 +48,5 @@
   desc:
     detail: '<p>Awarded an academic achievement prize by the Harvard Club UK.</p>'
   date:
-    detail: 2013
-  icon: fa-cloud
+    detail: January 2013
+  icon: fa-trophy
