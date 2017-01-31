@@ -19,6 +19,7 @@
       url: 'http://news.mit.edu/2016/alumni-entrepreneurs-team-guide-young-startups-innovationone-1229'
   images: 
     - img: 'static/img/landing/projects/automata.png'
+    - img: 'static/img/landing/projects/sandbox.png'
   desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in advanced sensor analytics (focussing
   on applying machine learning to LIDAR data). We are currently in preliminary discussions with companies to assess potential opportunities.</p>'
 
