@@ -14,12 +14,23 @@
           // ...as many words as you want
       ];
 	$(document).ready(function() {
-	$('.word-cloud').jQCloud($word_array, {
-		autoResize: true,
-		delay: 10,
-		fontSize: {from:0.08, to:0.02}
-		/*colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],*/
-	});
+		var $window = $(this),
+           windowWidth = $window.width();
+        if (windowWidth < 500) {
+            $('.word-cloud').jQCloud($word_array, {
+				autoResize: true,
+				delay: 10,
+				fontSize: {from:0.06, to:0.02}
+				/*colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],*/
+			});
+        } else {
+        	$('.word-cloud').jQCloud($word_array, {
+				autoResize: true,
+				delay: 10,
+				fontSize: {from:0.08, to:0.02}
+				/*colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],*/
+			});
+        }
 	});
 </script>
 <div class="container">

@@ -8,6 +8,7 @@
       url: 'https://github.com/96imranahmed/asyncRL'
   images: 
     - img: 'static/img/landing/projects/hc_new.jpg'
+    - vid: 'static/img/landing/projects/dqn.mp4'
   desc: '<p>Our team created <b>SpatialRL</b> - a software infrastructure to facilitate training AIs through combining the Tensorflow interface
   with the ease-of-use of Unity and the scalibility of Spatial OS. We were awarded the SpatialOS Prize by Improbable at the event</p>'
 
@@ -29,7 +30,7 @@
   images:
     - img: 'static/img/landing/projects/fb.jpg'
     - vid: 'static/img/landing/projects/add.mp4'
-    - vid: 'static/img/landing/projects/vectors.mp4'
+    # - vid: 'static/img/landing/projects/vectors.mp4'
   desc: '<p>Created an algorithm to <b>compress educational videos by 100x</b> to reduce the data cost of accessing online education. 
   Our team was awarded 3rd place and we are currently working to deploy this technology with an MIT-based education startup.</p>'
 
@@ -40,6 +41,7 @@
       url: 'https://github.com/96imranahmed/blackbox-public'
   images:
     - img: 'static/img/landing/projects/hackmit.png'
+    - vid: 'static/img/landing/projects/blackbox.mp4'
   desc: '<p>Created <b>Blackbox</b> - a Messenger bot that analysed natural language input and provided curated dating advice for users. Our team 
   was awarded the Facebook Prize at MIT’s flagship annual hackathon (comprising of over 1000 students).</p>'
 
@@ -50,5 +52,6 @@
       url: 'https://github.com/96imranahmed/SmartJar'
   images:
     - img: 'static/img/landing/projects/hc.png'
+    - img: 'static/img/landing/cover/hc_pres.jpg'
   desc: '<p>Created <b>SmartJar</b> - a device which predicted the consumption rate of perishables in a home and automatically reordered supplies. Our
    team was awarded 2nd place at this competitive event out of >70 teams.</p>'

@@ -6654,6 +6654,12 @@ body.landing-page {
     height: 300px;
 }
 
+@media  (max-width: 768px){
+    .landing-page .word-cloud{
+        width: 100%;
+    }
+}
+
 .landing-page .word-cloud a{
     text-decoration: none;
     margin-left: 10px;
