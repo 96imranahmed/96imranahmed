@@ -8,7 +8,7 @@
       url: 'https://github.com/96imranahmed/asyncRL'
   images: 
     - img: 'static/img/landing/projects/hc_new.jpg'
-  desc: '<p>Created <b>SpatialRL</b> - a software infrastructure to facilitate training AIs through combining the Tensorflow interface
+  desc: '<p>Our team created <b>SpatialRL</b> - a software infrastructure to facilitate training AIs through combining the Tensorflow interface
   with the ease-of-use of Unity and the scalibility of Spatial OS. We were awarded the SpatialOS Prize by Improbable at the event</p>'
 
 - name: 'Automata Systems'
@@ -22,7 +22,7 @@
   on applying machine learning to LIDAR data). We are currently in preliminary discussions with companies to assess potential opportunities.</p>'
 
 - name: 'Facebook Global Hackathon Finals'  
-  id: 'Facebook'
+  id: 'FBHack'
   urls:
     - name: Project Website
       url: 'https://ylgh.github.io/'

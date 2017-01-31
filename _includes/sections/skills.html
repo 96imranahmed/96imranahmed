@@ -1,14 +1,16 @@
 <script type="text/javascript">
+	var $default = 7
 	var $word_array = [
-		{text: "Lorem", weight: 15},
-		{text: "Computer Vision", weight: 10, link: "#Vivacity"},
-		{text: "Dolor", weight: 6, html: {title: "I can haz any html attribute"}},
-		{text: "Sit", weight: 7},
-		{text: "Amet", weight: 5},
-		{text: "Sit", weight: 8},
-		{text: "Amet", weight: 6.2},
-		{text: "Consectetur", weight: 5},
-		{text: "Adipiscing", weight: 5},
+		{text: "Leadership", weight: $default, link:"#CUER"},
+		{text: "Teamwork", weight: $default, link: "#HC2016"},
+		{text: "Computer Vision", weight: $default - 2, link: "#Vivacity"},
+		{text: "Machine Learning", weight: $default - 2, link: "#HC2016"},
+		{text: "Project Management", weight: $default - 2, link:"#CUER"},
+		{text: "Entrepreneurship", weight: $default - 2, link: "#Automata"},
+		{text: "Product Design", weight: $default - 3, link: "#FBHack"},
+		{text: "Research", weight: $default - 3, link: "#UROP"},
+		{text: "Agile Development", weight: $default - 3, link:"#Vivacity"},
+
           // ...as many words as you want
       ];
 	$(document).ready(function() {
