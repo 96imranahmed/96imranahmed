@@ -23,14 +23,14 @@
 - img: 'static/img/landing/cover/hc.jpg'
   large: '0'
 
-- img: 'static/img/landing/cover/hc_pres.jpg'
-  large: '0'
+# - img: 'static/img/landing/cover/hc_pres.jpg'
+#   large: '0'
 
 - img: 'static/img/landing/cover/kings_small.jpg'
   large: '0'
 
-- img: 'static/img/landing/cover/fb_hack.jpg'
-  large: '0'
+# - img: 'static/img/landing/cover/fb_hack.jpg'
+#   large: '0'
 
 # - img: 'static/img/landing/cover/hack_mit.jpg'
 #   large: '0'
@@ -42,4 +42,7 @@
   large: '0'
 
 - img: 'static/img/landing/cover/MIT_small.jpg'
+  large: '0'
+
+- img: 'static/img/landing/cover/kcs_small.jpg'
   large: '0'
