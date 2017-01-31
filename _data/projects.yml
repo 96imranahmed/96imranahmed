@@ -53,6 +53,6 @@
       url: 'https://github.com/96imranahmed/SmartJar'
   images:
     - img: 'static/img/landing/projects/hc.png'
-    - img: 'static/img/landing/cover/hc_pres.jpg'
+    - img: 'static/img/landing/projects/hc_pres.jpg'
   desc: '<p>Created <b>SmartJar</b> - a device which predicted the consumption rate of perishables in a home and automatically reordered supplies. Our
    team was awarded 2nd place at this competitive event out of >70 teams.</p>'
