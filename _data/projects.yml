@@ -28,6 +28,8 @@
       url: 'https://ylgh.github.io/'
   images:
     - img: 'static/img/landing/projects/fb.jpg'
+    - vid: 'static/img/landing/projects/add.mp4'
+    - vid: 'static/img/landing/projects/vectors.mp4'
   desc: '<p>Created an algorithm to <b>compress educational videos by 100x</b> to reduce the data cost of accessing online education. 
   Our team was awarded 3rd place and we are currently working to deploy this technology with an MIT-based education startup.</p>'
 

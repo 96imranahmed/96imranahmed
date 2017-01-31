@@ -6716,6 +6716,11 @@ body.landing-page {
     width: auto;
 }
 
+.landing-page .project-carousel-video{
+    max-height: 100%;
+    width: auto;
+}
+
 .landing-page .carousel-small {
     height: 50%;
 }

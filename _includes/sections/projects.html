@@ -3,7 +3,7 @@
     $(document).ready(function() {
         var $carousel = $('.project-carousel').flickity({
             contain: true,
-            autoPlay: true,
+            autoPlay: 5000,
             pageDots: false,
             prevNextButtons: false,
             pauseAutoPlayOnHover: false,
@@ -12,6 +12,14 @@
         });
         $('.project-carousel').mouseleave(function() {
             $carousel.flickity('playPlayer')
+        });
+        function onLoadeddata( event ) {
+          var cell = $carousel.flickity( 'getParentCell', event.target );
+          $carousel.flickity( 'cellSizeChange', cell && cell.element );
+        }
+        $carousel.find('video').each( function( i, video ) {
+          video.play();
+          $( video ).on( 'loadeddata', onLoadeddata );
         });
     });
 </script>
@@ -37,7 +45,11 @@
               <div class="team-member" id={{project.id}}>
                   <div class="project-carousel">
                       {% for images in project.images %}
+                        {% if images.vid %}
+                          <div class="project-carousel-cell"><video autoplay muted loop class="project-carousel-video" src="{{ images.vid | prepend: site.baseurl }}"></video></div>
+                        {% else %}
                           <div class="project-carousel-cell"><img class="project-carousel-image" src="{{ images.img | prepend: site.baseurl }}" alt=""></div>
+                        {% endif %}
                       {% endfor %}
                   </div>
                   <h4 class="project-title"><a href="{{ project.url | prepend: 'https://github.com' }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
