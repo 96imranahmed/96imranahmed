@@ -2,11 +2,10 @@
 
 # Website settings
 title: "Imran Ahmed"
-description: "Imran's personal website!'"
-keywords: "Imran,Ahmed,CV,resume,github,linkedin,facebook"
+description: "My personal website!"
+keywords: "Imran,Ahmed,CV,resume,github,linkedin,facebook, MIT, Cambridge, Computer Vision, AI"
 baseurl: "/"
 url: "http://www.imranahmed.io"
-# url: "http://127.0.0.1:4000"
 
 # author
 author:
