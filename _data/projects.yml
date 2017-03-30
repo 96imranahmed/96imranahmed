@@ -28,12 +28,14 @@
   urls:
     - name: Project Website
       url: 'https://ylgh.github.io/'
+    - name: DotLearn
+      url: 'https://dotlearn.org/'
   images:
     - img: 'static/img/landing/projects/fb.jpg'
     - vid: 'static/img/landing/projects/add.mp4'
     # - vid: 'static/img/landing/projects/vectors.mp4'
   desc: '<p>Created an algorithm to <b>compress educational videos by 100x</b> to reduce the data cost of accessing online education. 
-  Our team was awarded 3rd place and we are currently working to deploy this technology with an MIT-based education startup.</p>'
+  Our team was awarded 3rd place and we are currently working to deploy this technology with DotLearn, an MIT-based education startup.</p>'
 
 - name: 'HackMIT'
   id: 'HackMIT'
