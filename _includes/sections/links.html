@@ -1,43 +1,41 @@
 <script type="text/javascript">
     $(document).ready(function(e) {
-    $('.with-hover-text, .regular-link').click(function(e){
-        e.stopPropagation();
+        $('.with-hover-text, .regular-link').click(function(e) {
+            e.stopPropagation();
+        });
+
+        $('.with-hover-text').hover(
+            function(e) {
+                $(this).css('overflow', 'visible');
+                $(this).find('.hover-text')
+                    .show()
+                    .css('opacity', 0)
+                    .delay(200)
+                    .animate({
+                            paddingTop: '0px',
+                            opacity: 1
+                        },
+                        'fast',
+                        'linear'
+                    );
+            },
+            function(e) {
+                var obj = $(this);
+                $(this).find('.hover-text')
+                    .animate({
+                            paddingTop: '0px',
+                            opacity: 0
+                        },
+                        'fast',
+                        'linear',
+                        function() {
+                            $(this).hide();
+                            $(obj).css('overflow', 'hidden');
+                        }
+                    );
+            }
+        );
     });
-    
-    $('.with-hover-text').hover(
-        function(e) {
-            $(this).css('overflow', 'visible');
-            $(this).find('.hover-text')
-                .show()
-                .css('opacity', 0)
-                .delay(200)
-                .animate(
-                    {
-                        paddingTop: '0px',
-                        opacity: 1
-                    },
-                    'fast',
-                    'linear'
-                );
-        },
-        function(e) {
-            var obj = $(this);
-            $(this).find('.hover-text')
-                .animate(
-                    {
-                        paddingTop: '0px',
-                        opacity: 0
-                    },
-                    'fast',
-                    'linear',
-                    function() {
-                        $(this).hide();
-                        $( obj ).css('overflow', 'hidden');
-                    }
-                );
-        }
-    );    
-});
 </script>
 <div class="container">
     <div class="row m-b-lg">
@@ -57,7 +55,7 @@
     </div><!-- /row -->
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-            <p><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            <p><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong> - Theme modified from 'Jalpc' by Jarekk</p>
         </div>
     </div>
 </div>

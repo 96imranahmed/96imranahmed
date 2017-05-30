@@ -4,7 +4,7 @@
     detail: Interactive Robotics Lab, MIT
     image: 'static/img/landing/careers/MIT_logo.png'
   desc:
-    detail: '<p>• Developing an astronaut tracking system for the International Space Station as part of a joint research project between
+    detail: '<p>• Developed an astronaut tracking system for the International Space Station as part of a joint research project between
 MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
 <p>• This will be implemented on an autonomous robot (“Astrobee”) which will be deployed on the ISS by 2018.</p>'
   date:
@@ -19,7 +19,7 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
     image: 'static/img/landing/careers/MIT_logo.png'
   desc:
     detail: '<p>Cambridge-MIT exchange student concentrating in Computer Science (with an emphasis on Machine Learning).</p>
-<p>• Current GPA: <b>5.0</b></p>'
+<p>• MIT GPA: <b>5.0</b></p>'
 
   date:
     detail: August 2016 - Present

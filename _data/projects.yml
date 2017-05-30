@@ -9,19 +9,8 @@
   images: 
     - img: 'static/img/landing/projects/hc_new.jpg'
     - vid: 'static/img/landing/projects/dqn.mp4'
-  desc: '<p>Our team created <b>SpatialRL</b> - a software infrastructure to facilitate training AIs through combining the Tensorflow interface
-  with the ease-of-use of Unity and the scalibility of Spatial OS. We were awarded the SpatialOS Prize by Improbable at the event</p>'
-
-- name: 'Automata Systems'
-  id: 'Automata'
-  urls:
-    - name: MIT News Feature
-      url: 'http://news.mit.edu/2016/alumni-entrepreneurs-team-guide-young-startups-innovationone-1229'
-  images: 
-    - img: 'static/img/landing/projects/automata.png'
-    - img: 'static/img/landing/projects/sandbox.png'
-  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in advanced sensor analytics (focussing
-  on applying machine learning to LIDAR data). We are currently in preliminary discussions with companies to assess potential opportunities.</p>'
+  desc: '<p>Our team created <b>SpatialRL</b> - a software platform to facilitate training RL Agents through combining the Tensorflow interface
+  with the ease-of-use of Unity and the scalibility of SpatialOS. We were awarded the SpatialOS Prize by Improbable at the event.</p>'
 
 - name: 'Facebook Global Hackathon Finals'  
   id: 'FBHack'
@@ -34,8 +23,19 @@
     - img: 'static/img/landing/projects/fb.jpg'
     - vid: 'static/img/landing/projects/add.mp4'
     # - vid: 'static/img/landing/projects/vectors.mp4'
-  desc: '<p>Created an algorithm to <b>compress educational videos by 100x</b> to reduce the data cost of accessing online education. 
-  Our team was awarded 3rd place and we are currently working to deploy this technology with DotLearn, an MIT-based education startup.</p>'
+  desc: '<p>Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education. 
+  Our team was awarded 3rd place and we are working to deploy this technology in Ghana with DotLearn, an MIT-based education startup.</p>'
+
+- name: 'Automata Systems'
+  id: 'Automata'
+  urls:
+    - name: MIT News Feature
+      url: 'http://news.mit.edu/2016/alumni-entrepreneurs-team-guide-young-startups-innovationone-1229'
+  images: 
+    - img: 'static/img/landing/projects/automata.png'
+    - img: 'static/img/landing/projects/sandbox.png'
+  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in sensor analytics (focussing
+  on applying machine learning to LIDAR data).</p>'
 
 - name: 'HackMIT'
   id: 'HackMIT'
