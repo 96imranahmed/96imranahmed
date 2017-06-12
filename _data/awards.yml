@@ -1,5 +1,16 @@
 # careers section data
 - name:
+    id: raeng_foe
+    detail: Runners-up, RAEng Future of Engineering Award
+    image: 'static/img/landing/awards/raeng.png'
+  desc:
+    detail: '<p>A national prize from the Royal Academy of Engineering for young engineers who display 
+    entrepreneurial talent.</p>'
+  date:
+    detail: June 2017
+  icon: fa-trophy
+
+- name:
     id: scholarship_senior
     detail: Senior Scholarship, Caius College Cambridge
     image: 'static/img/landing/awards/caius_logo.png'
@@ -14,7 +25,7 @@
     detail: RAEng Engineering Leaders Scholarship
     image: 'static/img/landing/awards/raeng.png'
   desc:
-    detail: '<p>Awarded a £5,000 scholarship by the Royal Academy of Engineering for demonstrating 
+    detail: '<p>A £5,000 scholarship from the Royal Academy of Engineering for students who demonstrate 
     strong leadership potential.</p>'
   date:
     detail: February 2016

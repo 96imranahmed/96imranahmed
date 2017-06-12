@@ -1,7 +1,7 @@
 # links section data
 - icon: phone
-  text: '<b>UK</b>: +44 7761 303035 <br/> <b>US</b>: +1 (857) 999 5712'
-  href: ''
+  text: '+44 7761 303035'
+  href: 'href=tel:+447761303035'
 
 - icon: envelope-o
   text: '96imranahmed@gmail.com'

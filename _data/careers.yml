@@ -1,5 +1,20 @@
 # careers section data
 - name:
+    id: Cambridge
+    detail: University of Cambridge
+    image: 'static/img/landing/careers/UCam.png'
+  desc:
+    detail: '<p>Candidate for a Masters in Information Engineering with an expected graduation date in 2018.</p>
+<p>• 1st Year Classification: <b>First Class</b></p>
+<p>• 2nd Year Classification: <b>First Class</b></p>
+<p>• MIT GPA: <b>5.0</b></p>'
+  date:
+    detail: October 2014 - Present
+  job:
+    detail: Information Engineering Student
+  icon: fa-university
+
+- name:
     id: UROP
     detail: Interactive Robotics Lab, MIT
     image: 'static/img/landing/careers/MIT_logo.png'
@@ -8,7 +23,7 @@
 MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
 <p>• This will be implemented on an autonomous robot (“Astrobee”) which will be deployed on the ISS by 2018.</p>'
   date:
-    detail: September 2016 - Present
+    detail: September 2016 - June 2017
   job:
     detail: Undergraduate Researcher
   icon: fa-space-shuttle
@@ -18,11 +33,11 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
     detail: Massachussets Institute of Technology
     image: 'static/img/landing/careers/MIT_logo.png'
   desc:
-    detail: '<p>Cambridge-MIT exchange student concentrating in Computer Science (with an emphasis on Machine Learning).</p>
+    detail: '<p>Cambridge-MIT exchange student concentrating in Computer Science.</p>
 <p>• MIT GPA: <b>5.0</b></p>'
 
   date:
-    detail: August 2016 - Present
+    detail: August 2016 - June 2017
   job:
     detail: Cambridge-MIT Exchange Student
   icon: fa-university
@@ -72,19 +87,3 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
   job:
     detail: Circuit Design Intern
   icon: fa-plane
-
-- name:
-    id: Cambridge
-    detail: University of Cambridge
-    image: 'static/img/landing/careers/UCam.png'
-  desc:
-    detail: '<p>Candidate for a Masters in Information Engineering with an expected graduation date in 2018.</p>
-<p>• 1st Year Classification: <b>First Class</b></p>
-<p>• 2nd Year Classification: <b>First Class</b></p>
-<p>• MIT GPA: <b>5.0</b></p>'
-  date:
-    detail: October 2014 - Present
-  job:
-    detail: Information Engineering Student
-  icon: fa-university
-
