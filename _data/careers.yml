@@ -1,5 +1,19 @@
 # careers section data
 - name:
+    id: Vivacity_PM
+    detail: Vivacity Labs, London
+    image: 'static/img/landing/careers/vivacity.png'
+  desc:
+    detail: '<p>•	Managing the development of a mobile transport application (“MotionMap”) to commercialise the world’s largest city-wide smart-sensor deployment in Milton Keynes, UK. Expected uptake is ~30,000 users.</p>
+<p>•	Leading the creation of internal tools to reduce the time spent manually annotating parking within cities by > 50%.</p>
+<p>•	Facilitating the installation of the system through developing algorithms to automate the sensor placement process.</p>'
+  date:
+    detail: June 2017 - Present
+  job:
+    detail: Product Management Intern
+  icon: fa-video-camera
+
+- name:
     id: Cambridge
     detail: University of Cambridge
     image: 'static/img/landing/careers/UCam.png'
