@@ -11,10 +11,10 @@
             {% for award in site.data.awards %}
             {% assign loopindex = forloop.index | modulo: 2 %}
                 <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn" id="{{award.name.id}}">
+                    <div class="vertical-timeline-icon navy-bg wow" id="{{award.name.id}}">
                         <i class="fa {{ award.icon }}"></i>
                     </div>
-                    <div class="vertical-timeline-content vertical-timeline-grey wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
+                    <div class="vertical-timeline-content vertical-timeline-grey wow">
                         <div class="career-logo-div"><img class="career-logo" src="{{ award.name.image | prepend: site.baseurl }}" alt=""></div>
                         <div>
                         <h2 class="timeline-name"><span>{{ award.name.detail }}</span></h2>
