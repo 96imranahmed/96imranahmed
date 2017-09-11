@@ -1,4 +1,24 @@
 # projects section data
+- name: 'Scholarly.ml (WIP)'
+  id: 'Scholarly'
+  urls:
+    - name: Project Website
+      url: 'http://scholarly.ml'
+  images: 
+    - img: 'static/img/landing/projects/scholarly.png'
+  desc: '<p>Currently in the process of building <b>Scholarly.ml</b> - a tool to allow researchers to discover contemporaries who have published similar material 
+  and/or share the same research interests. The underlying algorithms used to categorise this data are entirely unsupervised.</p>'
+
+- name: 'Hackbridge.io'
+  id: 'Hackbridge'
+  urls:
+    - name: Project Website
+      url: 'https://hackbridge.io'
+  images: 
+    - img: 'static/img/landing/projects/hackbridge.png'
+  desc: '<p>Launched <b>Hackbridge</b> - a student organisation to encourage Cambridge University students to actively get involved in side-projects/research.
+  Hackbridge will host weekly hackathons - in addition to a speaker series - and I am currently working to raise funds for student resources.</p>'
+
 - name: 'HackCambridge 2017'
   id: 'HC2016'
   urls:
@@ -34,8 +54,8 @@
   images: 
     - img: 'static/img/landing/projects/automata.png'
     - img: 'static/img/landing/projects/sandbox.png'
-  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in sensor analytics (focussing
-  on applying machine learning to LIDAR data).</p>'
+  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in AI/ML (focussing
+  on applying machine learning to meeting transcription).</p>'
 
 - name: 'HackMIT'
   id: 'HackMIT'

@@ -5,8 +5,8 @@
     image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: '<p>•	Managing the development of a mobile transport application (“MotionMap”) to commercialise the world’s largest city- wide smart-sensor deployment in Milton Keynes, UK. Expected uptake is ~50,000 users.</p>
-<p>•	Leading the creation of internal tools to reduce the time spent manually annotating parking facilities within cities by > 100%.</p>
-<p>•	Facilitating the installation of our sensor network by writing algorithms to automate sensor placement.</p>'
+<p>•	Leading the design creation of internal tools to reduce time spent manually annotating facilities within cities by more than five-fold.</p>
+<p>•	Facilitating the installation of our sensor network by writing algorithms to aid in the reduction of installation costs > £50,000.</p>'
   date:
     detail: June 2017 - Present
   job:

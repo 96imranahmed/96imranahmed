@@ -51,7 +51,8 @@
                         {% endif %}
                       {% endfor %}
                   </div>
-                  <h4 class="project-title"><a href="{{ project.url | prepend: 'https://github.com' }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
+                  {% proj = project.urls | first  }
+                  <h4 class="project-title"><a href="{{ proj.url }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
                   <p><span>{{ project.desc }}</span></p>
                   <div>
                   <div class="link-effect">

@@ -7219,3 +7219,7 @@ a:hover::before {
         border: none
     }
 }
+
+.landing-page .project-title {
+    margin-top: 15px;
+}
