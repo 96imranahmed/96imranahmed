@@ -51,7 +51,7 @@
                         {% endif %}
                       {% endfor %}
                   </div>
-                  {% proj = project.urls | first  }
+                  {% assign proj = project.urls | first  %}
                   <h4 class="project-title"><a href="{{ proj.url }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
                   <p><span>{{ project.desc }}</span></p>
                   <div>
