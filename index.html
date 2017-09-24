@@ -15,10 +15,11 @@ permalink: /
         var $carousel = $('.carousel-start').flickity({
             cellAlign: 'left',
             contain: true,
-            autoPlay: true,
+            autoPlay: 5000,
             pageDots: false,
             pauseAutoPlayOnHover: false,
             wrapAround: true
+            
         });
         $('.carousel-start').mouseleave(function() {
             $carousel.flickity('playPlayer')
