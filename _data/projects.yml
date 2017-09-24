@@ -1,4 +1,16 @@
 # projects section data
+- name: 'HackMIT 2017'
+  id: 'HackMIT17'
+  urls:
+    - name: Devpost 
+      url: 'https://devpost.com/software/pure-interact'
+    - name: Github
+      url: 'https://github.com/96imranahmed/pure-interaction'
+  images: 
+    - img: 'static/img/landing/projects/hackmit17.png'
+  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to react to interact with the web with only a webcam, their voice and their eyes!
+  We were awarded the Microsoft Prize at this event and are intending to develop this hack as part of the Microsoft Imagine Cup.</p>'
+
 - name: 'Scholarly.ml (WIP)'
   id: 'Scholarly'
   urls:
@@ -54,10 +66,10 @@
   images: 
     - img: 'static/img/landing/projects/automata.png'
     - img: 'static/img/landing/projects/sandbox.png'
-  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in AI/ML (focussing
-  on applying machine learning to meeting transcription).</p>'
+  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in AI/ML. Currently using these resources to focus
+  on meeting transcription - in particular, automatically noting-down salient discussion points in team meetings.</p>'
 
-- name: 'HackMIT'
+- name: 'HackMIT 2016'
   id: 'HackMIT'
   urls:
     - name: Github
