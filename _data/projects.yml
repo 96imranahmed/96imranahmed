@@ -8,7 +8,7 @@
       url: 'https://github.com/96imranahmed/pure-interaction'
   images: 
     - img: 'static/img/landing/projects/hackmit17.png'
-  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to react to interact with the web with only a webcam, their voice and their eyes!
+  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to interact with the web with only a webcam, their voice and their eyes!
   We were awarded the Microsoft Prize at this event and are intending to develop this hack as part of the Microsoft Imagine Cup.</p>'
 
 - name: 'Scholarly.ml (WIP)'
