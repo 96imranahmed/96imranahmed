@@ -11,15 +11,15 @@
   desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to interact with the web with only a webcam, their voice and their eyes!
   We were awarded the Microsoft Prize at this event and are intending to develop this hack as a submission to the Microsoft Imagine Cup.</p>'
 
-- name: 'Scholarly.ml (WIP)'
+- name: 'Scholarly.ml
   id: 'Scholarly'
   urls:
     - name: Project Website
       url: 'http://scholarly.ml'
   images: 
     - img: 'static/img/landing/projects/scholarly.png'
-  desc: '<p>Currently in the process of building <b>Scholarly.ml</b> - a tool to allow researchers to discover contemporaries who have published similar material 
-  and/or share the same research interests. The underlying algorithms used to categorise this data are entirely unsupervised.</p>'
+  desc: '<p>Built <b>Scholarly.ml</b> - a tool to allow researchers to discover contemporaries who have published similar material and/or share similar research interests. 
+  The underlying algorithms used to categorise this data are entirely unsupervised.</p>'
 
 - name: 'Hackbridge.io'
   id: 'Hackbridge'
