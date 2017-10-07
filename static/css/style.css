@@ -6796,7 +6796,8 @@ a:hover::before {
 .landing-page .resume-btn {
     background: #e67e22;
     color: #fff!important;
-    margin: 0 auto
+    margin: 0 auto;
+    width: 260px !important;
 }
 
 .landing-page .row-align {

@@ -1,5 +1,5 @@
 # projects section data
-- name: 'HackMIT 2017'
+- name: 'Pure Interaction'
   id: 'HackMIT17'
   urls:
     - name: Devpost 
@@ -31,7 +31,7 @@
   desc: '<p>Launched <b>Hackbridge</b> - a student organisation to encourage Cambridge University students to actively get involved in side-projects/research.
   Hackbridge will host weekly hackathons - in addition to a speaker series - and I am currently working to raise funds for student resources.</p>'
 
-- name: 'HackCambridge 2017'
+- name: 'SpatialRL'
   id: 'HC2016'
   urls:
     - name: Devpost 
@@ -44,7 +44,7 @@
   desc: '<p>Our team created <b>SpatialRL</b> - a software platform to facilitate training RL Agents through combining the Tensorflow interface
   with the ease-of-use of Unity and the scalibility of SpatialOS. We were awarded the SpatialOS Prize by Improbable at the event.</p>'
 
-- name: 'Facebook Global Hackathon Finals'  
+- name: 'Educational Video Compression'  
   id: 'FBHack'
   urls:
     - name: Project Website
@@ -56,7 +56,7 @@
     - vid: 'static/img/landing/projects/add.mp4'
     # - vid: 'static/img/landing/projects/vectors.mp4'
   desc: '<p>Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education. 
-  Our team was awarded 3rd place and we are working to deploy this technology in Ghana with DotLearn, an MIT-based education startup.</p>'
+  Our team was awarded a prize at the Facebook Global Hackathon Finals and we are working to deploy this technology in Ghana with DotLearn, an MIT-based education startup.</p>'
 
 - name: 'Automata Systems'
   id: 'Automata'
@@ -67,9 +67,9 @@
     - img: 'static/img/landing/projects/automata.png'
     - img: 'static/img/landing/projects/sandbox.png'
   desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in AI/ML. Currently using these resources to focus
-  on meeting transcription - in particular, automatically noting-down salient discussion points in team meetings.</p>'
+  on tackling meeting transcription - in particular, a method of automatically recording, transcribing and summarising salient discussion points in team meetings.</p>'
 
-- name: 'HackMIT 2016'
+- name: 'Blackbox'
   id: 'HackMIT'
   urls:
     - name: Github
@@ -80,7 +80,7 @@
   desc: '<p>Created <b>Blackbox</b> - a Messenger bot that analysed natural language input and provided curated dating advice for users. Our team 
   was awarded the Facebook Prize at MIT’s flagship annual hackathon (comprising of over 1000 students).</p>'
 
-- name: 'HackCambridge 2016'
+- name: 'SmartJar'
   id: 'HC2015'
   urls:
     - name: Github
