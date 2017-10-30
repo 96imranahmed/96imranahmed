@@ -19,7 +19,7 @@
   images: 
     - img: 'static/img/landing/projects/scholarly.png'
   desc: '<p>Built <b>Scholarly.ml</b> - a tool to allow researchers to discover contemporaries who have published similar material and/or share similar research interests. 
-  The underlying algorithms used to categorise this data are entirely unsupervised.</p>'
+  The underlying algorithms used to categorise this data are entirely unsupervised. Try searching for "Yann Lecun" or "Generative Adversarial Networks"</p>'
 
 - name: 'Hackbridge.io'
   id: 'Hackbridge'
@@ -29,8 +29,19 @@
   images: 
     - img: 'static/img/landing/projects/hackbridge.png'
   desc: '<p>Launched <b>Hackbridge</b> - a student organisation to encourage Cambridge University students to actively get involved in side-projects/research.
-  Hackbridge will host weekly hackathons - in addition to a speaker series - and I am currently working to raise funds for student resources.</p>'
+  Hackbridge will host weekly hackathons - in addition to a speaker series - and I am working to try and increase student participation.</p>'
 
+- name: 'Project Access'
+  id: 'ProjectAccess'
+  urls:
+    - name: Website
+      url: 'https://projectaccess.co/'
+  images:
+    - img: 'static/img/landing/projects/proj_access.png'
+  desc: '<p>Working with <b>Project Access</b> to help manage the creation of their technology stack. Project Access is a startup which connects students from under-represented backgrounds to similar students at top universities to
+  help guide them through the application process.</p>'
+
+  
 - name: 'SpatialRL'
   id: 'HC2016'
   urls:
