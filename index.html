@@ -54,17 +54,17 @@ permalink: /
                 $(this).css('min-height', max_var, 'important');
             };
         });
-    $.data(this, 'resizeTimer', setTimeout(function() {
-        var $window = $(this),
-           windowWidth = $window.width();
-        if (windowWidth < 768 && lastWindowWidth > 768) {
-            window.location.reload()
-        }
-        else if(windowWidth > 768 && lastWindowWidth < 768){
-            window.location.reload()
-        }
-        lastWindowWidth = windowWidth;
-    }, 100));
+        $.data(this, 'resizeTimer', setTimeout(function() {
+            var $window = $(this),
+            windowWidth = $window.width();
+            if (windowWidth < 768 && lastWindowWidth > 768) {
+                window.location.reload()
+            }
+            else if(windowWidth > 768 && lastWindowWidth < 768){
+                window.location.reload()
+            }
+            lastWindowWidth = windowWidth;
+        }, 100));
    
 });
 
