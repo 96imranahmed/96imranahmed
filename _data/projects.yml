@@ -4,7 +4,7 @@
   urls:
   images: 
     - img: 'static/img/landing/projects/stethoscope.png'
-  desc: '<p>For my masters thesis, I developed methods to automatically identify lung abnormalities from stethoscope sounds using machine learning. My work was supervised by both Dr. Anurag Agarwal and Prof. Mark Gales, and primarily explored inhale/exhale segmentation and abnormality classification. Sadly, my results are under NDA and are not public.</p>'
+  desc: '<p>Supervised by Dr. Anurag Agarwal and Prof. Mark Gales, my masters thesis involved developing methods to automatically identify lung abnormalities from stethoscope sounds. My work explored inhale/exhale segmentation and abnormality classification. Unfortunately, my results are private and under NDA.</p>'
 
 - name: 'Reinforcement Learning for Sepsis'
   id: 'NIPS'
@@ -13,7 +13,7 @@
       url: 'https://arxiv.org/abs/1711.09602'
   images: 
     - img: 'static/img/landing/projects/NIPS_logo.png'
-  desc: '<p>Contributed to research which explored the application of Reinforcement Learning to discover better treatment policies for Sepsis. Our workshop paper was accepted to both the ML4H and TIML workshops at NIPS 2017.</p>'
+  desc: '<p>Contributed to research which explored the application of Reinforcement Learning to discover better treatment policies for Sepsis. My contributions centred around investigating reward shaping and temporal dependencies. Our workshop paper was accepted to both the ML4H and TIML workshops at NIPS 2017.</p>'
 
 - name: 'Pure Interaction'
   id: 'HackMIT17'
@@ -24,7 +24,7 @@
       url: 'https://github.com/96imranahmed/pure-interaction'
   images: 
     - img: 'static/img/landing/projects/hackmit17.png'
-  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to interact with the web with only a webcam, their voice and their gaze.
+  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to efficiently interact with the web with only a webcam as hardware, and the user''s expressions, voice and gaze as inputs.
   We won the Microsoft Prize and were HacKMIT top 10 finalists from an entry pool of over 100 teams.</p>'
 
 - name: 'Scholarly.ml'

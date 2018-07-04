@@ -12,6 +12,16 @@ permalink: /
         window.location.reload()
     });
     $(document).ready(function() {
+        var mvar = [];
+        $(".n_item_n").each(function() {
+            mvar.push($(this).height());
+        });
+        var max_var = Math.max.apply(Math, mvar);
+        $(".n_item_n").each(function() {
+            if ($(this).height() != max_var) {
+                $(this).css('min-height', max_var, 'important');
+            };
+        });
         var $carousel = $('.carousel-start').flickity({
             cellAlign: 'left',
             contain: true,
@@ -33,7 +43,17 @@ permalink: /
         });   
     });
     $(window).resize(function() {
-    clearTimeout($.data(this, 'resizeTimer'));
+        clearTimeout($.data(this, 'resizeTimer'));
+        var mvar = [];
+        $(".n_item_n").each(function() {
+            mvar.push($(this).height());
+        });
+        var max_var = Math.max.apply(Math, mvar);
+        $(".n_item_n").each(function() {
+            if ($(this).height() != max_var) {
+                $(this).css('min-height', max_var, 'important');
+            };
+        });
     $.data(this, 'resizeTimer', setTimeout(function() {
         var $window = $(this),
            windowWidth = $window.width();
