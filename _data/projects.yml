@@ -1,4 +1,20 @@
 # projects section data
+- name: 'Smart Stethoscope to Diagnose Lung Diseases'
+  id: 'stethoscope'
+  urls:
+  images: 
+    - img: 'static/img/landing/projects/stethoscope.png'
+  desc: '<p>For my masters thesis, I developed methods to automatically identify lung abnormalities from stethoscope sounds using machine learning. My work was supervised by both Dr. Anurag Agarwal and Prof. Mark Gales, and primarily explored inhale/exhale segmentation and abnormality classification. Sadly, my results are under NDA and are not public.</p>'
+
+- name: 'Reinforcement Learning for Sepsis'
+  id: 'NIPS'
+  urls:
+    - name: Arxiv 
+      url: 'https://arxiv.org/abs/1711.09602'
+  images: 
+    - img: 'static/img/landing/projects/NIPS_logo.png'
+  desc: '<p>Contributed to research which explored the application of Reinforcement Learning to discover better treatment policies for Sepsis. Our workshop paper was accepted to both the ML4H and TIML workshops at NIPS 2017.</p>'
+
 - name: 'Pure Interaction'
   id: 'HackMIT17'
   urls:
@@ -8,8 +24,8 @@
       url: 'https://github.com/96imranahmed/pure-interaction'
   images: 
     - img: 'static/img/landing/projects/hackmit17.png'
-  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to interact with the web with only a webcam, their voice and their eyes!
-  We were awarded the Microsoft Prize at this event and are intending to develop this hack as a submission to the Microsoft Imagine Cup.</p>'
+  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to interact with the web with only a webcam, their voice and their gaze.
+  We won the Microsoft Prize and were HacKMIT top 10 finalists from an entry pool of over 100 teams.</p>'
 
 - name: 'Scholarly.ml'
   id: 'Scholarly'
@@ -24,12 +40,15 @@
 - name: 'Hackbridge.io'
   id: 'Hackbridge'
   urls:
-    - name: Project Website
+    - name: Website
       url: 'https://hackbridge.io'
+    - name: Medium
+      url: 'https://medium.com/hackbridge'
   images: 
     - img: 'static/img/landing/projects/hackbridge.png'
-  desc: '<p>Launched <b>Hackbridge</b> - a student organisation to encourage Cambridge University students to actively get involved in side-projects/research.
-  Hackbridge will host weekly hackathons - in addition to a speaker series - and I am working to try and increase student participation.</p>'
+    - img: 'static/img/landing/projects/hackbridge_session.png'
+  desc: '<p>Founded <b>Hackbridge</b> - a student organisation to foster a ''hacker'' culture at Cambridge University by encouraging students to actively work together on side-projects/research.
+  Hackbridge hosts weekly hackathons and a speaker series; I led a team to raise money and grow the organisation.</p>'
 
 - name: 'Project Access'
   id: 'ProjectAccess'
@@ -38,8 +57,8 @@
       url: 'https://projectaccess.co/'
   images:
     - img: 'static/img/landing/projects/proj_access.png'
-  desc: '<p>Working with <b>Project Access</b> to help manage the creation of their technology stack. Project Access is a startup which connects students from under-represented backgrounds to similar students at top universities to
-  help guide them through the application process.</p>'
+  desc: '<p>Advised <b>Project Access</b> with their technology stack, and served as a mentor to prospective applicants. Project Access is a startup which connects students from under-represented backgrounds to students at top universities, who
+  help guide them through their applications.</p>'
 
   
 - name: 'SpatialRL'
@@ -53,7 +72,7 @@
     - img: 'static/img/landing/projects/hc_new.jpg'
     - vid: 'static/img/landing/projects/dqn.mp4'
   desc: '<p>Our team created <b>SpatialRL</b> - a software platform to facilitate training RL Agents through combining the Tensorflow interface
-  with the ease-of-use of Unity and the scalibility of SpatialOS. We were awarded the SpatialOS Prize by Improbable at the event.</p>'
+  with the ease-of-use of Unity and the scalibility of SpatialOS. We demonstrated that our approach could be used to train an RL agent using A3C, and were awarded the Improbable Prize at the event.</p>'
 
 - name: 'Educational Video Compression'  
   id: 'FBHack'
@@ -67,7 +86,7 @@
     - vid: 'static/img/landing/projects/add.mp4'
     # - vid: 'static/img/landing/projects/vectors.mp4'
   desc: '<p>Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education. 
-  Our team was awarded a prize at the Facebook Global Hackathon Finals and we are working to deploy this technology in Ghana with DotLearn, an MIT-based education startup.</p>'
+  Our team was awarded a prize at the Facebook Global Hackathon Finals. We productised and donated our algorithm to DotLearn, an MIT-based education startup who are trialling it in Ghana.</p>'
 
 - name: 'Automata Systems'
   id: 'Automata'
@@ -77,8 +96,7 @@
   images: 
     - img: 'static/img/landing/projects/automata.png'
     - img: 'static/img/landing/projects/sandbox.png'
-  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture in AI/ML. Currently using these resources to focus
-  on tackling meeting transcription - in particular, a method of automatically recording, transcribing and summarising salient discussion points in team meetings.</p>'
+  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture within Machine Learning. Currently using these resources to explore different areas of the field and support the development of various projects, such as an entry to DeepMind''s Medical Decathlon challenge.</p>'
 
 - name: 'Blackbox'
   id: 'HackMIT'

@@ -1,14 +1,27 @@
 # careers section data
 - name:
+    id: QB
+    detail: McKinsey QuantumBlack, London
+    image: 'static/img/landing/careers/qb_logo.png'
+  desc:
+    detail: '<p>Currently working in London on data-driven analytics projects for blue-chip clients across a variety of advanced industries</p>'
+  date:
+    detail: August 2018 - Present
+  job:
+    detail: Data Scientist
+  icon: fa-flask
+  
+- name:
     id: Vivacity_PM
     detail: Vivacity Labs, London
     image: 'static/img/landing/careers/vivacity.png'
   desc:
-    detail: '<p>•	Managing the development of a mobile transport application (“MotionMap”) to commercialise the world’s largest city- wide smart-sensor deployment in Milton Keynes, UK. Expected uptake is ~50,000 users.</p>
-<p>•	Leading the design creation of internal tools to reduce time spent manually annotating facilities within cities by more than five-fold.</p>
-<p>•	Facilitating the installation of our sensor network by writing algorithms to help reduce installation costs by > £50,000.</p>'
+    detail: '<p>•	Led the design and development of a novel Cordova-based mobile transport app (“MotionMap”) to commercialise one of the
+world’s largest city-wide smart-sensor deployments in Milton Keynes, UK.</p>
+<p>•	Developed internal web-tools to reduce the time spent manually annotating facilities within cities by more than five-fold.</p>
+<p>•	Facilitated the installation of the sensor network by creating algorithms to help lower installation costs by > £50,000.</p>'
   date:
-    detail: June 2017 - Present
+    detail: June 2017 - September 2017
   job:
     detail: Product Management Intern
   icon: fa-video-camera
@@ -18,12 +31,15 @@
     detail: University of Cambridge
     image: 'static/img/landing/careers/UCam.png'
   desc:
-    detail: '<p>Candidate for a Masters in Information Engineering with an expected graduation date in 2018.</p>
-<p>• 1st Year Classification: <b>First Class</b></p>
-<p>• 2nd Year Classification: <b>First Class</b></p>
-<p>• MIT GPA: <b>5.0</b></p>'
+    detail: '<p>Masters in Information & Computer Engineering</p>
+<p>• 1st Year Grade: <b>First Class</b></p>
+<p>• 2nd Year Grade: <b>First Class</b></p>
+<p>• MIT GPA: <b>5.0</b></p>
+<p>• Masters Grade: <b>Distinction</b></p>
+<p> <b>Masters Project</b>: A smart stethoscope to automatically identify lung diseases using Machine Learning</p>
+<p> <b>Activities</b>: Cambridge University Eco-Racing (CUER) - Business Manager, Cambridge University Bangla Society - Treasurer, Hackbridge - Founder'
   date:
-    detail: October 2014 - Present
+    detail: October 2014 - June 2018
   job:
     detail: Information Engineering Student
   icon: fa-university
@@ -33,9 +49,9 @@
     detail: Interactive Robotics Lab, MIT
     image: 'static/img/landing/careers/MIT_logo.png'
   desc:
-    detail: '<p>• Developed an astronaut tracking system for the International Space Station as part of a joint research project between
-MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
-<p>• This will be implemented on an autonomous robot (“Astrobee”) which will be deployed on the ISS by 2018.</p>'
+    detail: '<p>• Developed an astronaut detection system for the International Space Station, using machine learning. This formed part of
+a NASA-led research project at MIT for an autonomous robot (“Astrobee”) which will be deployed on the ISS.</p>
+<p>• Improved an open-source detection system and implemented a multi-processing module for parallelised classification.</p>'
   date:
     detail: September 2016 - June 2017
   job:
@@ -47,7 +63,7 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
     detail: Massachussets Institute of Technology
     image: 'static/img/landing/careers/MIT_logo.png'
   desc:
-    detail: '<p>Cambridge-MIT exchange student concentrating in Computer Science.</p>
+    detail: '<p>Cambridge-MIT exchange student with a concentration in Computer Science.</p>
 <p>• MIT GPA: <b>5.0</b></p>'
 
   date:
@@ -62,8 +78,8 @@ MIT’s Interactive Robotics Lab and NASA Space Technology Research.</p>
     image: 'static/img/landing/careers/vivacity.png'
   desc:
     detail: '<p>• Upgraded an outdated machine learning toolkit to give a 300% increase in training performance.</p>
-<p>• Designed an algorithm to optimise a neural net by automatically identifying incorrect output for further retraining and
-fine-tuning. This automated what was previously a time-intensive manual task.</p>
+<p>• Designed a computer-vision algorithm in C++ to optimise a segmentation network by processing the model’s
+predictions and identifying uncertain output for model fine-tuning. This automated what was previously a time-intensive manual task.</p>
 <p>• Produced scripts to automate data retrieval from several sources for use in training machine learning algorithms.</p>'
   date:
     detail: June - August 2016
@@ -80,8 +96,8 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
       url: 'http://www.cuer.co.uk/'
   desc:
     detail: '<p>• Led a 10-person team to raise funds for this student-led organisation with an operating budget in excess of £1m.</p>
-  <p> • Overhauled the team’s former sponsorship structure and implemented a formalised system to facilitate fundraising.</p>
-  <p> • Sourced funds to employ a team of full-time students which allowed us to improve the quality of our vehicle design.</p>'
+  <p>• Overhauled the team’s former sponsorship structure and implemented a formalised system to facilitate fundraising.</p>
+  <p>• Sourced funds to employ a team of full-time students which allowed us to improve the quality of our vehicle design.</p>'
   date:
     detail: October 2015 - June 2016
   job:
@@ -93,8 +109,7 @@ fine-tuning. This automated what was previously a time-intensive manual task.</p
     detail: Ultra Electronics Controls, Cambridge
     image: 'static/img/landing/careers/ultra.jpg'
   desc:
-    detail: '<p>• Developed high-level overviews of a safety-critical avionics system and identified areas for improvement in order to
-    guide the design of a safer system.</p>
+    detail: '<p>• Developed high-level overviews of a safety-critical avionics system and identified areas for improvement; this was done to guide the design of a safer system.</p>
 <p>• Built software to automate the time-intensive manual process of cross-checking materials with EU-compliant standards.</p>'
   date:
     detail: July - August 2015

@@ -1,25 +1,15 @@
 <script type="text/javascript">
 	var $default = 6
 	var $word_array = [
-		{text: "Leadership", weight: $default, link:"#CUER"},
-		{text: "Teamwork", weight: $default - 1, link: "#HC2016"},
-		{text: "Computer Vision", weight: $default - 2, link: "#Vivacity"},
-		{text: "Machine Learning", weight: $default - 1, link: "#HC2016"},
-		{text: "Project Management", weight: $default - 3, link:"#CUER"},
-		{text: "Product Management", weight: $default - 1, link:"#Vivacity_PM"},
-		{text: "Fundraising", weight: $default - 2, link:"#CUER"},
-		{text: "Product Design", weight: $default - 2, link: "#FBHack"},
-		{text: "Research", weight: $default - 1, link: "#UROP"},
-          // ...as many words as you want
-      ];
-	var $word_array_small = [
-		{text: "Leadership", weight: $default, link:"#CUER"},
-		{text: "Teamwork", weight: $default - 1, link: "#FBHack"},
-		{text: "Computer Vision", weight: $default - 2, link: "#Vivacity"},
-		{text: "Machine Learning", weight: $default - 1, link: "#HC2016"},
-		{text: "Product Management", weight: $default - 1, link:"#Vivacity_PM"},
-		{text: "Product Design", weight: $default - 2, link: "#Scholarly"},
-		{text: "Research", weight: $default - 1, link: "#UROP"},
+		{text: "Leadership", weight: $default+1, link:"#CUER"},
+		{text: "Teamwork", weight: $default, link: "#Hackbridge"},
+		{text: "Computer Vision", weight: $default - 2, link: "#FBHack"},
+		{text: "Machine Learning", weight: $default - 1, link: "#QB"},
+		{text: "Programming", weight: $default - 1, link: "#Scholarly"}, 
+		{text: "Project Management", weight: $default - 2, link:"#CUER"},
+		{text: "Product Management", weight: $default - 2, link:"#Vivacity_PM"},
+		{text: "Product Design", weight: $default - 2, link: "http://www.imranahmed.io"},
+		{text: "Research", weight: $default - 1, link: "#NIPS"},
           // ...as many words as you want
       ];
 	$(document).ready(function() {
@@ -47,7 +37,7 @@
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
             <h1><span>My Skills</span></h1>
-            <h4><span>Tap a skill below to jump to my relevant experience!<span><h4>
+            <h4><span>Tap a word below to jump to my relevant experience!<span><h4>
         </div>
     </div>
     <div class='word-centre'>

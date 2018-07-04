@@ -53,7 +53,7 @@
   icon: fa-trophy
 
 - name:
-    id: harvard_prie
+    id: harvard_prize
     detail: Harvard Book Prize
     image: 'static/img/landing/awards/harvard.png'
   desc:
