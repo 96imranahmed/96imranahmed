@@ -30,8 +30,8 @@
 - name: 'Scholarly.ml'
   id: 'Scholarly'
   urls:
-    - name: Project Website
-      url: 'http://scholarly.ml'
+    - name: Github
+      url: 'https://github.com/96imranahmed/scholarly'
   images: 
     - img: 'static/img/landing/projects/scholarly.png'
   desc: '<p>Built <b>Scholarly.ml</b> - a tool to allow researchers to discover contemporaries who have published similar material and/or share similar research interests. 
