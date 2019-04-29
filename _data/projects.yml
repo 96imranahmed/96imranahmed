@@ -1,4 +1,24 @@
 # projects section data
+- name: 'A Machine Learning Risk Management Framework'
+  id: 'ICLR'
+  urls:
+    - name: Document
+      url: 'https://debug-ml-iclr2019.github.io/cameraready/DebugML-19_paper_30.pdf'
+    - name: Workshop
+      url: https://debug-ml-iclr2019.github.io/
+  images: 
+    - img: 'static/img/landing/projects/ICLR.png'
+  desc: '<p>Contributed to a McKinsey + QuantumBlack publication to develop a standardised methodology to identify, mitigate, and communicate risks across the full breadth of applied Machine Learning in industry. This work was presented at the ICLR 2019 Debug ML Workshop in New Orleans. Note, the authors are listed here in alphabetical order.</p>'
+
+- name: 'McKinsey Venture Academy'
+  id: 'MVA2019'
+  urls:
+    - name: MVA Website
+      url: 'https://ventureacademy.mckinsey.com/'
+  images: 
+    - img: 'static/img/landing/projects/mva19.png'
+  desc: '<p>Co-led the mentoring team at MVA 2019, a competition which supports students building social enterprises in the UK&I. As part of my role, I introduced a series of webinars to connect students with experts in the field, including an entrepreneur from the Skoll Centre at Oxford, a social-impact VC from India, and <a href="https://www.joinef.com/"">Entrepreneur First</a>.</p>'
+
 - name: 'Smart Stethoscope to Diagnose Lung Diseases'
   id: 'stethoscope'
   urls:
@@ -96,7 +116,7 @@
   images: 
     - img: 'static/img/landing/projects/automata.png'
     - img: 'static/img/landing/projects/sandbox.png'
-  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture within Machine Learning. Currently using these resources to explore different areas of the field and support the development of various projects, such as an entry to DeepMind''s Medical Decathlon challenge.</p>'
+  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture within Machine Learning. We used   these resources to support various other side-projects while at MIT.</p>'
 
 - name: 'Blackbox'
   id: 'HackMIT'
