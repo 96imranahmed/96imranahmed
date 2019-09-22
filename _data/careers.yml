@@ -1,17 +1,17 @@
 # careers section data
 - name:
     id: QB
-    detail: McKinsey QuantumBlack, London
+    detail: McKinsey & Company / QuantumBlack, London
     image: 'static/img/landing/careers/qb_logo.png'
   urls:
     - name: QB Website
       url: 'https://www.quantumblack.com/'
   desc:
-    detail: '<p>Currently working in London on data-driven analytics projects for blue-chip clients across a variety of advanced industries</p>'
+    detail: '<p>Currently working in London on data-driven analytics projects for blue-chip clients across a variety of advanced industries. Started in a Data Scientist (technical) role but transitioned to a Business Analyst (generalist) role in June 2019.</p>'
   date:
     detail: August 2018 - Present
   job:
-    detail: Data Scientist
+    detail: Business Analyst
   icon: fa-flask
   
 - name:
