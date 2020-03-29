@@ -25,5 +25,12 @@
 
 /* Set to full width */
 .is-full-width {
-    height: 100%;
+    width: 100%;
+}
+
+/* Footer content */ 
+.true-footer-content {
+    margin-bottom: 10px;   
+    opacity: 0.75;
+    text-align: center;
 }

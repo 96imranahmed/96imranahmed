@@ -8,4 +8,6 @@ $(document).ready(function() {
         $(".navbar-menu").toggleClass("is-active");
   
     });
+
+    $(".copyright-year").html("© " + new Date().getFullYear() + '. All rights reserved. Built in London with ❤️')
   });

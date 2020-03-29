@@ -30,6 +30,18 @@
     position: sticky;
 }
 
+/* Footer content for non-mobile */ 
+.desktop-footer-parent {
+    position: absolute;
+    bottom: 0px;
+}
+
+.desktop-footer-content {
+    margin-bottom: 10px;   
+    text-align: center;
+    opacity: 0.75;
+}
+
 /* Scroll prompter - source: https://codepen.io/nxworld/pen/OyRrGy */
 
 .scrollPrompt div {
