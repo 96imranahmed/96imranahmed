@@ -1,17 +1,68 @@
---- 
-title: index 
-permalink: / 
 ---
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <meta content="{{ site.description }}" name="description">
-    <meta name="keywords" content="{{ site.keywords }}">
-    <meta name="author" content="{{ site.author.name }}">
-    <title>{{ site.title }}</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="{{ "static/img/icon.png" | prepend: site.baseurl }}">
-</head>  
-<div>Main body!</div>
+layout: default
+title: index
+permalink: /
+jsimports:
+    - typed.js
+    - index.js
+cssimports:
+    - index.css
+---
+<div class="columns is-gapless">
+    <div class="column is-stacked-flex is-flex-centered is-full-height has-background-grey-lighter">
+        <figure class="image is-256x256 is-flex-centered">
+            <img class="is-rounded" src="{{"static/img/imran_qb.jpg"| prepend: site.baseurl}}">
+        </figure>
+        <h1 class="title is-4 is-flex-centered stacked-pad-top">
+            <div>👋, I'm Imran,</div>
+        </h1>
+        <h1 class="title is-4 is-flex-centered" id="typed-intro">
+        </h1>
+        <div class="scrollPrompt is-hidden-tablet is-flex-centered" id="scrollPromptAnimation2">
+            <div><span></span></div>
+        </div>
+    </div>
+    <div class="column is-flex-is-stacked-flex is-full-height">
+        <section class="section">
+            <div class="container">
+              <h3 class="subtitle is-6">
+                I'm currently a Business Analyst at McKinsey & Company / QuantumBlack, focussing on digital strategy and the delivery of tough analytics projects. During undergrad, I studied Information Engineering at Cambridge and Computer Science at MIT, as part of the Cambridge-MIT Exchange.
+              </h3>
+              <h3 class="subtitle is-6">
+                You can find-out more about me by reading my resume and/or my pitch-deck below, or by browsing-through my side-projects.
+              </h3>
+              <h3 class="subtitle is-6">        
+                I'm open to roles in Product Management / Venture Capital in Boston and/or Silicon Valley. Please do get in touch if you'd like to discuss an opportunity.
+              </h3>
+            </div>
+          </section>
+          <nav class="level is-hidden-mobile">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Tweets</p>
+                <p class="title">3,456</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Following</p>
+                <p class="title">123</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Followers</p>
+                <p class="title">456K</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Likes</p>
+                <p class="title">789</p>
+              </div>
+            </div>
+          </nav>
+    </div>
+</div>
+
+
