@@ -9,7 +9,7 @@ cssimports:
     - index.css
 ---
 <div class="columns is-gapless">
-    <div class="column is-stacked-flex is-flex-centered is-full-height has-background-grey-lighter">
+    <div class="column is-stacked-flex is-flex-centered is-full-height has-background-grey-lighter is-sticky">
         <figure class="image is-256x256 is-flex-centered">
             <img class="is-rounded" src="{{"static/img/imran_qb.jpg"| prepend: site.baseurl}}">
         </figure>
@@ -23,45 +23,77 @@ cssimports:
         </div>
     </div>
     <div class="column is-flex-is-stacked-flex is-full-height">
-        <section class="section">
+        <section class="section suppress-section-padding">
             <div class="container">
+              <div class="content">
+                <strong>Experience:</strong>
+                <ul class = "suppress-ul-padding">
+                    <li>Business Analyst at <a target="_blank" href="https://www.mckinsey.com/">McKinsey & Company</a> / <a target="_blank" href="https://quantumblack.com/">QuantumBlack</a>, focussing on technology strategy and the delivery of advanced analytics projects.</li>
+                    <li>MEng in Information Engineering at Cambridge and Computer Science at MIT, as part of the Cambridge-MIT Exchange.</li>
+                </ul>
+              </div>
+              <nav class="level is-mobile is-full-width">
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="https://quantumblack.com/">
+                        <img src="{{"static/img/qb.png"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="https://mckinsey.com/">
+                        <img src="{{"static/img/mck.jpg"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="http://mit.edu/">
+                        <img src="{{"static/img/MIT.png"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="http://eng.cam.ac.uk/">
+                        <img src="{{"static/img/cam.png"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+              </nav>
+              <hr class="hr modify-hr">
               <h3 class="subtitle is-6">
-                I'm currently a Business Analyst at McKinsey & Company / QuantumBlack, focussing on digital strategy and the delivery of tough analytics projects. During undergrad, I studied Information Engineering at Cambridge and Computer Science at MIT, as part of the Cambridge-MIT Exchange.
+                <strong>Find out more: </strong>You can learn more about me by downloading my resume / pitch-deck below, or by browsing-through my <a target="_blank" href="/projects/">side-projects</a>.
               </h3>
-              <h3 class="subtitle is-6">
-                You can find-out more about me by reading my resume and/or my pitch-deck below, or by browsing-through my side-projects.
-              </h3>
+              <div class="container">
+                <div class="field is-grouped is-flex-centered">
+                    <p class="control">
+                    <a target="_blank" href="{{"static/docs/imran_resume.pdf"| prepend: site.baseurl}}">
+                    <button class="button is-info is-rounded">
+                        <span class="icon">
+                            <i class="fas fa-arrow-down"></i>
+                        </span>
+                        <span>Resume</span>                 
+                    </button>
+                    </a>
+                    </p>
+                    <p class="control">
+                    <button class="button is-info is-rounded" disabled>
+                        <span class="icon">
+                            <i class="fas fa-arrow-down"></i>
+                        </span>
+                        <span>Pitch deck</span> 
+                    </button>
+                    </p>
+                </div>
+              </div>
+              <hr class="hr modify-hr">
               <h3 class="subtitle is-6">        
-                I'm open to roles in Product Management / Venture Capital in Boston and/or Silicon Valley. Please do get in touch if you'd like to discuss an opportunity.
+                <strong>Get in touch: </strong>I'm open to roles in Product Management / Venture Capital in Boston and/or Silicon Valley. Reach out at <a target="_blank" href="mailto:96imranahmed@gmail.com?subject=Getting%20in%20touch!">96imranahmed@gmail.com</a>.
               </h3>
             </div>
           </section>
-          <nav class="level is-hidden-mobile">
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Tweets</p>
-                <p class="title">3,456</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Following</p>
-                <p class="title">123</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Followers</p>
-                <p class="title">456K</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Likes</p>
-                <p class="title">789</p>
-              </div>
-            </div>
-          </nav>
     </div>
 </div>
 

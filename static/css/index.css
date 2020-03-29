@@ -6,10 +6,28 @@
 }
 
 /* Custom image size (for front-page view) */
-
 .image.is-256x256 {
     max-height: 256px;
     max-width: 256px;
+}
+
+/* Reduce padding to fit on page */
+
+.modify-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.suppress-section-padding {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.suppress-ul-padding {
+    margin-top: 0.5rem !important;
+}
+
+/* Enable sticky LHS column */
+.is-sticky {
+    position: sticky;
 }
 
 /* Scroll prompter - source: https://codepen.io/nxworld/pen/OyRrGy */

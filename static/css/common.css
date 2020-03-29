@@ -10,7 +10,7 @@
 }
 
 .is-flex-centered {
-    justify-content: center;
+    justify-content: center !important;
     align-items: center;
 }
 
@@ -20,7 +20,7 @@
 
 /* Set columns to full height */
 .is-full-height {
-    height: calc(100vh - 58px);
+    min-height: calc(100vh - 58px);
 }
 
 /* Set to full width */
