@@ -2,9 +2,12 @@ $(document).ready(function() {
 
     $('.tile-filter').isotope({
         // options
-        itemSelector: '.tile',
-        layoutMode: 'fitRows'
-      });
+        itemSelector: '.tile-card',
+        layoutMode: 'masonry',
+        masonry: {
+            fitWidth: true
+        }
+    });
     
 });
 

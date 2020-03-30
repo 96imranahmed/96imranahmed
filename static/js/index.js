@@ -3,15 +3,17 @@ var options = {
         "a", 
         "a full-time nerd",
         "a business consultant",
+        "an aspiring product manager",
         "a machine learning fanatic",
-        "an aspiring product manager"],
-    typeSpeed: 100,
+        "a hacker"
+    ],
+    typeSpeed: 80,
     loop: true,
     loopCount: Infinity,
     showCursor: false,
     smartBackspace: true,
     backDelay: 1500,
-    backSpeed: 75
+    backSpeed: 60
 };
   
   var typed = new Typed('#typed-intro', options);
