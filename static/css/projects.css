@@ -8,4 +8,41 @@
 
 .tile-card {
     width: 375px !important;
+    height: 600px !important;
+}
+
+.filter-All {
+    background-color: #48c774 !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.filter-Research {
+    background-color: hsl(204, 86%, 53%) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.filter-Reimplementation {
+    background-color: #9b59b6 !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.filter-Hackathon {    
+    background-color: hsl(348, 100%, 61%) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.filter-Learning {
+    background-color: #f39c12 !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.filter-Other {
+    background-color: hsl(0, 0%, 21%) !important;
+    border-color: transparent !important;
+    color: #fff !important;
 }
