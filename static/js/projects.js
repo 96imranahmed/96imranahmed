@@ -45,11 +45,19 @@ $(document).ready(function() {
 
 $('.filter-button-group').on( 'click', 'button', function() {
     var filterValue = $(this).attr('data-filter');
+
     if (filters.has("*") || filterValue == "*") {
         filters.clear()
         filters.add(filterValue)
     } else {
-        filters.add(filterValue)
+        if ($(this).hasClass("filter-" + filterValue.substring(1))) {
+            filters.delete(filterValue)
+            if (filters.size == 0) {
+                filters.add("*")
+            }
+        } else {
+            filters.add(filterValue)
+        }
     }
     $grid.isotope({ filter: [...filters].join(', ') });
     updateFilterCount()
