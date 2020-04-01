@@ -46,7 +46,7 @@
 
 .scrollPrompt div {
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     z-index: 2;
     color: #000;
     letter-spacing: .1em;
