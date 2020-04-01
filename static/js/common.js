@@ -1,6 +1,3 @@
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
 $(document).ready(function() {
 
     // Check for click events on the navbar burger icon
@@ -14,9 +11,3 @@ $(document).ready(function() {
 
     $(".copyright-year").html("© " + new Date().getFullYear() + '. All rights reserved. Built in London with ❤️')
   });
-
-window.addEventListener('resize', () => {
-// We execute the same script as before
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
