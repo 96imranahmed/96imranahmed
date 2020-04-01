@@ -2,7 +2,7 @@
 title: "Imran Ahmed"
 description: "Personal website!"
 keywords: "Imran,Ahmed,CV,resume,github,linkedin,MIT,Cambridge,McKinsey & Company,McKinsey,Machine Learning,Artificial Intelligence"
-baseurl: ""
+baseurl: "/"
 url: "http://www.imranahmed.io"
 
 # author
