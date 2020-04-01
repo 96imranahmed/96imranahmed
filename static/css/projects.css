@@ -50,6 +50,7 @@
     padding-left: 0rem;
     padding-right: 0rem;
     margin: 0rem auto;
+    visibility: hidden;
 }
 
 .cards-title-padding {

@@ -41,6 +41,7 @@ $(document).ready(function() {
         }
     });
     updateFilterCount();
+    $('.cards-section-padding').css('visibility', 'visible');
 });
 
 $('.filter-button-group').on( 'click', 'button', function() {
