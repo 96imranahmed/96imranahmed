@@ -21,6 +21,7 @@
 /* Set columns to full height */
 .is-full-height {
     min-height: calc(100vh - 58px);
+    min-height: calc(var(--vh, 1vh) * 100 - 58px);
 }
 
 /* Set to full width */
