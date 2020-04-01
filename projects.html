@@ -37,7 +37,8 @@ cssimports:
                     <div class="card tile-card-dim-set">
                         <div class="card-image">
                             <figure class="image">
-                                <img class = "card-image-div" src="https://bulma.io/images/placeholders/1280x960.png">
+                                {% assign img_import_stub = "static/img"| prepend: site.baseurl %}
+                                <img class = "card-image-div" src="{{ img_import_stub | append: project.image }}">
                             </figure>
                         </div>
                         <div class="card-content">

@@ -1,42 +1,138 @@
-- title: Test Project 1
-  subtitle: ICML 2019 Workshop
+- title: McKinsey Venture Academy
+  subtitle: Co-lead
   tags: 
-    - Research
-    - Learning
-  date: 2019-06-01
-  content: I did this, and then I did that
+    - Other
+  date: 2019-09-01
+  content: I co-lead this UK-wide social-enterprise accelerator for university students. 
+  image: /other/mva19.png
+  urls:
+    - name: McKinsey Venture Academy
+      url: https://www.mckinsey.com/uk/careers/mckinsey-venture-academy/overview
+
+- title: Clickyclicky
+  subtitle: HackCambridge 2018
+  tags: 
+    - Hackathon
+  date: 2018-01-01
+  content: A simple utility tool to control and share data across multiple computers with a single mouse and keyboard.
+  image: /hackathons/hc_2018.png
   urls:
     - name: GitHub
-      url: https://github.com/96imranahmed
-    - name: Medium
-      url: https://medium.com/@imranahmed
+      url: https://github.com/96imranahmed/clickyclicky
+    - name: Video
+      url: https://www.youtube.com/watch?v=uqCJ5BoDEjI
 
-- title: Test Project 2
-  subtitle: Winner, XYZ
-  tags:
-    - Reimplementation
-    - Research
-  date: 2020-06-01
-  content: I did this, and then I *also* did that
+- title: Pure Interaction
+  subtitle: Microsoft prize, HackMIT 2017
+  tags: 
+    - Hackathon
+  date: 2017-09-01
+  content: A tool to browse the web via eye-gaze, voice commands, and facial expressions. Top 10 finalists out of 100+ teams.
+  image: /hackathons/hackmit_2017.png
   urls:
-    - name: Google
-      url: https://www.google.com
-    - name: Bing
-      url: https://bing.com
+    - name: GitHub
+      url: https://github.com/96imranahmed/pure-interaction
 
-- title: Test Project 3
-  subtitle: Winner, ABC
+- title: Hackbridge.io
+  subtitle: Co-founder
+  tags: 
+    - Other
+  date: 2017-09-01
+  content: Started Hackbridge, a student organisation to support students with their side-projects and startup ideas at Cambridge.
+  image: /other/hackbridge.png
+  urls:
+    - name: Hackbridge.io
+      url: https://hackbridge.io/
+
+- title: Scholarly.ml
+  subtitle: Machine Learning Literature Explorer
+  tags: 
+    - Learning
+  date: 2017-08-01
+  content: A simple website to explore the ML academic landscape, using LDA to find similarity between academic papers.
+  image: /learning/scholarly.png
+  urls:
+    - name: GitHub
+      url: https://github.com/96imranahmed/scholarly
+
+- title: Project Access
+  subtitle: Student-run educational-access non-profit
+  tags: 
+    - Other
+  date: 2017-06-01
+  content: Managed the design and development of a platform to digitse the organisation's mentor-mentee matching program.
+  image: /other/project_access.png
+  urls:
+    - name: Project Access
+      url: https://projectaccess.org/
+
+- title: SpatialRL
+  subtitle: Improbable prize, Hack Cambridge 2017
+  tags: 
+    - Hackathon
+  date: 2017-01-01
+  content: Created a software platform to train reinforcement-learning agents at scale levaraging <a target="blank_" href="https://unity.com/">Unity</a> and <a target="blank_" href="https://improbable.io/multiplayer-networking">SpatialOS</a>.
+  image: /hackathons/hc_2017.jpg
+  urls:
+    - name: Devpost
+      url: https://devpost.com/software/spatialrl
+    - name: GitHub
+      url: https://github.com/96imranahmed/asyncRL
+
+- title: Educational Video Compression
+  subtitle: Prize winner, Facebook Hackathon Finals
+  tags: 
+    - Research
+    - Hackathon
+  date: 2016-11-01
+  content: Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education.
+  image: /hackathons/fb_2016.jpg
+  urls:
+    - name: Project Website
+      url: https://ylgh.github.io/
+
+- title: Automata Systems
+  subtitle: $5000 grant, MIT Sandbox Fund
+  tags: 
+    - Other
+  date: 2016-10-01
+  content: Awarded $5000 funding as part of the MIT Sandbox Fund to develop various ML-focussed side-projects while at MIT.
+  image: /other/sandbox_2016.png
+  urls:
+    - name: MIT Sandbox
+      url: http://sandbox.mit.edu/
+
+- title: Blackbox
+  subtitle: Facebook prize, HackMIT 2016
+  tags:
+    - Hackathon
+  date: 2016-09-01
+  content: Rules-based chat-bot to process natural language input and provide curated dating advice to users.
+  image: /hackathons/hackmit_2016.png
+  urls:
+    - name: Devpost
+      url: https://devpost.com/software/blackbox-ct4my1
+    - name: GitHub
+      url: https://github.com/96imranahmed/blackbox-public
+
+- title: Smart Jar
+  subtitle: 2nd place, Hack Cambridge 2016
+  tags:
+    - Hackathon
+  date: 2016-01-01
+  content: A device to predict the consumption of perishables in a home, and automatically reorder supplies.
+  image: /hackathons/hc_2016.png
+  urls:
+    - name: GitHub
+      url: https://github.com/96imranahmed/SmartJar 
+  
+- title: Cambridge University Eco Racing
+  subtitle: Business Manager
   tags:
     - Other
-    - Learning
-  date: 2020-06-01
-  content: Testing testing 123
+  date: 2015-09-01
+  content:  Led a 10-person team to raise funds for this student-run solar racing team with an operating budget in excess of £1m.
+  image: /other/cuer.png
   urls:
-    - name: Google
-      url: https://www.google.com
-    - name: Bing
-      url: https://bing.com
-  
-  
-  
-  
+    - name: CUER
+      url: https://www.cuer.co.uk/
