@@ -1,9 +1,7 @@
-# Welcome to Jekyll!
-
 # Website settings
 title: "Imran Ahmed"
-description: "My personal website!"
-keywords: "Imran,Ahmed,CV,resume,github,linkedin,facebook, MIT, Cambridge, Computer Vision, AI"
+description: "Personal website!"
+keywords: "Imran,Ahmed,CV,resume,github,linkedin,MIT,Cambridge,McKinsey & Company,McKinsey,Machine Learning,Artificial Intelligence"
 baseurl: "/"
 url: "http://www.imranahmed.io"
 
@@ -17,12 +15,6 @@ author:
   github_username: '96imranahmed'
   linkedin_username: '96imranahmed'
   avatar: 'static/img/landing/Imran.jpg'
-  desc: '
-  I''m a full-time nerd with a <b>Masters in  Information Engineering</b> at Cambridge University, currently working as a Business Analyst at <b>McKinsey & Company + QuantumBlack</b> in London. I support clients to develop and deploy data-driven solutions to improve the operational efficiency of systems and processes in a range of industries. As part of my undergrad, I also studied for a year at MIT through the Cambridge-MIT Exchange.
-  <br/><br/>
-  In the past, I have interned in both Software Engineering and Product Management roles at a UK-leading startup, and have researched for NASA at MIT. My Masters thesis involved developing algorithms for automatic lung auscultation and I have also published workshop papers at NeurIPS, ICML, and ICLR.
-  <br/><br/>
-  Please feel free to reach out (contact details below) if you are interested in getting in touch. For your interest, my resume can be found below - I am particularly interested in opportunities in either Silicon Valley or Boston. I am looking forward to hearing from you!'
 
 # google analytics
 ga:
@@ -30,10 +22,3 @@ ga:
 
 # Build settings
 encoding: "utf-8"
-
-# other settings
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge

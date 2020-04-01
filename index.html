@@ -1,124 +1,106 @@
---- 
-layout: default 
-title: index 
-permalink: / 
 ---
-
-<script src="/static/js/flickity.pkgd.min.js"></script>
-<link href="/static/css/flickity.css" rel="stylesheet" media="screen">
-<script type="text/javascript">
-    var lastWindowWidth = $(this).width();
-    $(window).on('orientationchange', function(e) {
-        window.location.reload()
-    });
-    $(document).ready(function() {
-        var mvar = [];
-        $(".n_item_n").each(function() {
-            mvar.push($(this).height());
-        });
-        var max_var = Math.max.apply(Math, mvar);
-        $(".n_item_n").each(function() {
-            if ($(this).height() != max_var) {
-                $(this).css('min-height', max_var, 'important');
-            };
-        });
-        var $carousel = $('.carousel-start').flickity({
-            cellAlign: 'left',
-            contain: true,
-            autoPlay: 5000,
-            pageDots: false,
-            pauseAutoPlayOnHover: false,
-            wrapAround: true
-            
-        });
-        $('.carousel-start').mouseleave(function() {
-            $carousel.flickity('playPlayer')
-        });
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 200) {
-                $('.go-top').fadeIn(200);
-            } else {
-                $('.go-top').fadeOut(200);
-            }
-        });   
-    });
-    $(window).resize(function() {
-        clearTimeout($.data(this, 'resizeTimer'));
-        var mvar = [];
-        $(".n_item_n").each(function() {
-            mvar.push($(this).height());
-        });
-        var max_var = Math.max.apply(Math, mvar);
-        $(".n_item_n").each(function() {
-            if ($(this).height() != max_var) {
-                $(this).css('min-height', max_var, 'important');
-            };
-        });
-        $.data(this, 'resizeTimer', setTimeout(function() {
-            var $window = $(this),
-            windowWidth = $window.width();
-            if (windowWidth < 768 && lastWindowWidth > 768) {
-                window.location.reload()
-            }
-            else if(windowWidth > 768 && lastWindowWidth < 768){
-                window.location.reload()
-            }
-            lastWindowWidth = windowWidth;
-        }, 100));
-   
-});
-
-</script>
-<a href="#page-top" class="go-top page-scroll"><i class="fa fa-chevron-up fa-2x"></i></a>
-
-<div class="navbar-wrapper">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><!-- <i class="fa fa-home fa-2x"></i> --><span class=navbar-title>{{ site.title }}</span></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    {% for section in site.data.landing %}
-                    <li>
-                        <a class="page-scroll" href="#{{ section.id }}">
-                            <span>{{ section.name }}</span>
-                        </a>
-                    </li>
-                    {% endfor %}
-
-                </ul>
-            </div>
+layout: default
+title: index
+permalink: /
+jsimports:
+    - typed.js
+    - index.js
+cssimports:
+    - index.css
+---
+<div class="columns is-gapless">
+    <div class="column is-stacked-flex is-flex-centered is-full-height has-background-grey-lighter is-sticky">
+        <figure class="image is-256x256 is-flex-centered">
+            <img class="is-rounded" src="{{"static/img/imran_qb.jpg"| prepend: site.baseurl}}">
+        </figure>
+        <h1 class="title is-4 is-flex-centered stacked-pad-top">
+            <div>👋, I'm Imran,</div>
+        </h1>
+        <h1 class="title is-4 is-flex-centered" id="typed-intro">
+        </h1>
+        <div class="scrollPrompt is-hidden-tablet is-flex-centered" id="scrollPromptAnimation2">
+            <div><span></span></div>
         </div>
-    </nav>
+        <div class ="is-full-width is-hidden-mobile desktop-footer-parent">
+            <div class="content desktop-footer-content copyright-year"></div>
+        </div>
+    </div>
+    <div class="column is-flex-is-stacked-flex is-full-height">
+        <section class="section suppress-section-padding">
+            <div class="container">
+              <div class="content">
+                <strong>Experience:</strong>
+                <ul class = "suppress-ul-padding">
+                    <li>Business Analyst at <a target="_blank" href="https://www.mckinsey.com/">McKinsey & Company</a> / <a target="_blank" href="https://quantumblack.com/">QuantumBlack</a>, focussing on technology strategy and the delivery of advanced analytics projects.</li>
+                    <li>MEng in Information Engineering at Cambridge and Computer Science at MIT, as part of the Cambridge-MIT Exchange.</li>
+                </ul>
+              </div>
+              <nav class="level is-mobile is-full-width">
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="https://quantumblack.com/">
+                        <img src="{{"static/img/qb.png"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="https://mckinsey.com/">
+                        <img src="{{"static/img/mck.jpg"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="http://mit.edu/">
+                        <img src="{{"static/img/MIT.png"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+                <div class="level-item has-text-centered">
+                    <figure class="image is-flex-centered is-64x64">
+                        <a target="_blank" href="http://eng.cam.ac.uk/">
+                        <img src="{{"static/img/cam.png"| prepend: site.baseurl}}">
+                        </a>
+                    </figure>
+                </div>
+              </nav>
+              <hr class="hr modify-hr">
+              <div class="content">
+                <strong>Find out more: </strong>You can learn more about me by downloading my resume / pitch-deck below, or by browsing-through my past <a href="/projects/">projects</a>.
+              </div>
+              <div class="container">
+                <div class="field is-grouped is-flex-centered">
+                    <p class="control">
+                    <a target="_blank" href="{{"static/docs/imran_resume.pdf"| prepend: site.baseurl}}">
+                    <button class="button is-info is-rounded">
+                        <span class="icon">
+                            <i class="fas fa-arrow-down"></i>
+                        </span>
+                        <span>Resume</span>                 
+                    </button>
+                    </a>
+                    </p>
+                    <p class="control">
+                    <button class="button is-info is-rounded" disabled>
+                        <span class="icon">
+                            <i class="fas fa-arrow-down"></i>
+                        </span>
+                        <span>Pitch deck</span> 
+                    </button>
+                    </p>
+                </div>
+              </div>
+              <hr class="hr modify-hr">
+              <div class="content">        
+                <strong>Get in touch: </strong>I'm open to roles in Product Management / Venture Capital in Boston or Silicon Valley. Reach out at <a target="_blank" href="mailto:96imranahmed@gmail.com?subject=Getting%20in%20touch!">96imranahmed@gmail.com</a>.
+              </div>
+            </div>
+          </section>
+        <div class ="container is-full-width is-hidden-tablet">
+            <div class="content true-footer-content copyright-year"></div>
+        </div>
+    </div>
 </div>
 
-<div class="carousel-large carousel-start">
-    {% for slider in site.data.slider %}
-        {% if slider.large == '1' %}
-        <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
-        {% endif %}
-    {% endfor %}
-</div>
-<div class="carousel-small carousel-start">
-    {% for slider in site.data.slider %}
-        {% if slider.large == '0' %}
-        <div class="carousel-cell"><img class="carousel-image" src="{{ slider.img | prepend: site.baseurl }}" alt=""></div>
-        {% endif %}
-    {% endfor %}
-</div>
 
-<div>
-{% for section in site.data.landing %}
-    {% assign loopindex = forloop.index | modulo: 2 %}
-    <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
-        {% include sections/{{section.tpl}} %}
-    </section>
-{% endfor %}
-</div>

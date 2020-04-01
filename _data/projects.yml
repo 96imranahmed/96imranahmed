@@ -1,141 +1,138 @@
-# projects section data
-- name: 'A Machine Learning Risk Management Framework'
-  id: 'ICLRICML'
+- title: McKinsey Venture Academy
+  subtitle: Co-lead
+  tags: 
+    - Other
+  date: 2019-09-01
+  content: I co-lead this UK-wide social-enterprise accelerator for university students. 
+  image: /other/mva19.png
   urls:
-    - name: Document
-      url: https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf
-    - name: Poster
-      url: https://aiforsocialgood.github.io/icml2019/accepted/track2/posters/32_aisg_icml2019.pdf
-  images: 
-    - img: 'static/img/landing/projects/ICLR.png'
-  desc: '<p>Co-authored McKinsey''s + QuantumBlack''s first machine learning publication where we outlined a standardised methodology to identify, mitigate, and communicate the risks inherent in applied ML. This work was presented at both ICLR 2019''s Debug ML Workshop and ICML 2019''s AI for Social Good workshop.</p>'
+    - name: McKinsey Venture Academy
+      url: https://www.mckinsey.com/uk/careers/mckinsey-venture-academy/overview
 
-- name: 'McKinsey Venture Academy'
-  id: 'MVA2019'
+- title: Clickyclicky
+  subtitle: HackCambridge 2018
+  tags: 
+    - Hackathon
+  date: 2018-01-01
+  content: A simple utility tool to control and share data across multiple computers with a single mouse and keyboard.
+  image: /hackathons/hc_2018.png
   urls:
-    - name: MVA Website
-      url: 'https://ventureacademy.mckinsey.com/'
-  images: 
-    - img: 'static/img/landing/projects/mva19.png'
-  desc: '<p>Co-led the mentoring team at MVA 2019, a competition which supports students building social enterprises in the UK&I. As part of my role, I introduced a series of webinars to connect students with experts in the field, including an entrepreneur from the Skoll Centre at Oxford, a social-impact VC from India, and <a href="https://www.joinef.com/"">Entrepreneur First</a>.</p>'
+    - name: GitHub
+      url: https://github.com/96imranahmed/clickyclicky
+    - name: Video
+      url: https://www.youtube.com/watch?v=uqCJ5BoDEjI
 
-- name: 'Smart Stethoscope to Diagnose Lung Diseases'
-  id: 'stethoscope'
+- title: Pure Interaction
+  subtitle: Microsoft prize, HackMIT 2017
+  tags: 
+    - Hackathon
+  date: 2017-09-01
+  content: A tool to browse the web via eye-gaze, voice commands, and facial expressions. Top 10 finalists out of 100+ teams.
+  image: /hackathons/hackmit_2017.png
   urls:
-  images: 
-    - img: 'static/img/landing/projects/stethoscope.png'
-  desc: '<p>Supervised by Dr. Anurag Agarwal and Prof. Mark Gales, my masters thesis involved developing methods to automatically identify lung abnormalities from stethoscope sounds. My work explored inhale/exhale segmentation and abnormality classification. Unfortunately, my results are private and under NDA.</p>'
+    - name: GitHub
+      url: https://github.com/96imranahmed/pure-interaction
 
-- name: 'Reinforcement Learning for Sepsis'
-  id: 'NIPS'
+- title: Hackbridge.io
+  subtitle: Co-founder
+  tags: 
+    - Other
+  date: 2017-09-01
+  content: Started Hackbridge, a student organisation to support students with their side-projects and startup ideas at Cambridge.
+  image: /other/hackbridge.png
   urls:
-    - name: Arxiv 
-      url: 'https://arxiv.org/abs/1711.09602'
-  images: 
-    - img: 'static/img/landing/projects/NIPS_logo.png'
-  desc: '<p>Contributed to research which explored the application of Reinforcement Learning to discover better treatment policies for Sepsis. My contributions centred around investigating reward shaping and temporal dependencies. Our workshop paper was accepted to both the ML4H and TIML workshops at NIPS 2017.</p>'
+    - name: Hackbridge.io
+      url: https://hackbridge.io/
 
-- name: 'Pure Interaction'
-  id: 'HackMIT17'
+- title: Scholarly.ml
+  subtitle: Machine Learning Literature Explorer
+  tags: 
+    - Learning
+  date: 2017-08-01
+  content: A simple website to explore the ML academic landscape, using LDA to find similarity between academic papers.
+  image: /learning/scholarly.png
   urls:
-    - name: Devpost 
-      url: 'https://devpost.com/software/pure-interact'
-    - name: Github
-      url: 'https://github.com/96imranahmed/pure-interaction'
-  images: 
-    - img: 'static/img/landing/projects/hackmit17.png'
-  desc: '<p>As part of HackMIT 2017, we created <b>Pure Interaction</b> - a tool to allow users to efficiently interact with the web with only a webcam as hardware, and the user''s expressions, voice and gaze as inputs.
-  We won the Microsoft Prize and were HacKMIT top 10 finalists from an entry pool of over 100 teams.</p>'
+    - name: GitHub
+      url: https://github.com/96imranahmed/scholarly
 
-- name: 'Scholarly.ml'
-  id: 'Scholarly'
+- title: Project Access
+  subtitle: Student-run educational-access non-profit
+  tags: 
+    - Other
+  date: 2017-06-01
+  content: Managed the design and development of a platform to digitse the organisation's mentor-mentee matching program.
+  image: /other/project_access.png
   urls:
-    - name: Github
-      url: 'https://github.com/96imranahmed/scholarly'
-  images: 
-    - img: 'static/img/landing/projects/scholarly.png'
-  desc: '<p>Built <b>Scholarly.ml</b> - a tool to allow researchers to discover contemporaries who have published similar material and/or share similar research interests. 
-  The underlying algorithms used to categorise this data are entirely unsupervised. Try searching for "Yann Lecun" or "Generative Adversarial Networks"</p>'
+    - name: Project Access
+      url: https://projectaccess.org/
 
-- name: 'Hackbridge.io'
-  id: 'Hackbridge'
+- title: SpatialRL
+  subtitle: Improbable prize, Hack Cambridge 2017
+  tags: 
+    - Hackathon
+  date: 2017-01-01
+  content: Created a software platform to train reinforcement-learning agents at scale levaraging <a target="blank_" href="https://unity.com/">Unity</a> and <a target="blank_" href="https://improbable.io/multiplayer-networking">SpatialOS</a>.
+  image: /hackathons/hc_2017.jpg
   urls:
-    - name: Website
-      url: 'https://hackbridge.io'
-    - name: Medium
-      url: 'https://medium.com/hackbridge'
-  images: 
-    - img: 'static/img/landing/projects/hackbridge.png'
-    - img: 'static/img/landing/projects/hackbridge_session.png'
-  desc: '<p>Founded <b>Hackbridge</b> - a student organisation to foster a ''hacker'' culture at Cambridge University by encouraging students to actively work together on side-projects/research.
-  Hackbridge hosts weekly hackathons and a speaker series; I led a team to raise money and grow the organisation.</p>'
+    - name: Devpost
+      url: https://devpost.com/software/spatialrl
+    - name: GitHub
+      url: https://github.com/96imranahmed/asyncRL
 
-- name: 'Project Access'
-  id: 'ProjectAccess'
-  urls:
-    - name: Website
-      url: 'https://projectaccess.co/'
-  images:
-    - img: 'static/img/landing/projects/proj_access.png'
-  desc: '<p>Advised <b>Project Access</b> with their technology stack, and served as a mentor to prospective applicants. Project Access is a startup which connects students from under-represented backgrounds to students at top universities, who
-  help guide them through their applications.</p>'
-
-  
-- name: 'SpatialRL'
-  id: 'HC2016'
-  urls:
-    - name: Devpost 
-      url: 'https://devpost.com/software/spatialrl'
-    - name: Github
-      url: 'https://github.com/96imranahmed/asyncRL'
-  images: 
-    - img: 'static/img/landing/projects/hc_new.jpg'
-    - vid: 'static/img/landing/projects/dqn.mp4'
-  desc: '<p>Our team created <b>SpatialRL</b> - a software platform to facilitate training RL Agents through combining the Tensorflow interface
-  with the ease-of-use of Unity and the scalibility of SpatialOS. We demonstrated that our approach could be used to train an RL agent using A3C, and were awarded the Improbable Prize at the event.</p>'
-
-- name: 'Educational Video Compression'  
-  id: 'FBHack'
+- title: Educational Video Compression
+  subtitle: Prize winner, Facebook Hackathon Finals
+  tags: 
+    - Research
+    - Hackathon
+  date: 2016-11-01
+  content: Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education.
+  image: /hackathons/fb_2016.jpg
   urls:
     - name: Project Website
-      url: 'https://ylgh.github.io/'
-    - name: DotLearn
-      url: 'https://dotlearn.org/'
-  images:
-    - img: 'static/img/landing/projects/fb.jpg'
-    - vid: 'static/img/landing/projects/add.mp4'
-    # - vid: 'static/img/landing/projects/vectors.mp4'
-  desc: '<p>Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education. 
-  Our team was awarded a prize at the Facebook Global Hackathon Finals. We productised and donated our algorithm to DotLearn, an MIT-based education startup who are trialling it in Ghana.</p>'
+      url: https://ylgh.github.io/
 
-- name: 'Automata Systems'
-  id: 'Automata'
+- title: Automata Systems
+  subtitle: $5000 grant, MIT Sandbox Fund
+  tags: 
+    - Other
+  date: 2016-10-01
+  content: Awarded $5000 funding as part of the MIT Sandbox Fund to develop various ML-focussed side-projects while at MIT.
+  image: /other/sandbox_2016.png
   urls:
-    - name: MIT News Feature
-      url: 'http://news.mit.edu/2016/alumni-entrepreneurs-team-guide-young-startups-innovationone-1229'
-  images: 
-    - img: 'static/img/landing/projects/automata.png'
-    - img: 'static/img/landing/projects/sandbox.png'
-  desc: '<p>Awarded <b>$5000 funding</b> as part of the MIT Sandbox Innovation Fund to develop a venture within Machine Learning. We used   these resources to support various other side-projects while at MIT.</p>'
+    - name: MIT Sandbox
+      url: http://sandbox.mit.edu/
 
-- name: 'Blackbox'
-  id: 'HackMIT'
+- title: Blackbox
+  subtitle: Facebook prize, HackMIT 2016
+  tags:
+    - Hackathon
+  date: 2016-09-01
+  content: Rules-based chat-bot to process natural language input and provide curated dating advice to users.
+  image: /hackathons/hackmit_2016.png
   urls:
-    - name: Github
-      url: 'https://github.com/96imranahmed/blackbox-public'
-  images:
-    - img: 'static/img/landing/projects/hackmit.png'
-    - vid: 'static/img/landing/projects/blackbox.mp4'
-  desc: '<p>Created <b>Blackbox</b> - a Messenger bot that analysed natural language input and provided curated dating advice for users. Our team 
-  was awarded the Facebook Prize at MIT’s flagship annual hackathon (comprising of over 1000 students).</p>'
+    - name: Devpost
+      url: https://devpost.com/software/blackbox-ct4my1
+    - name: GitHub
+      url: https://github.com/96imranahmed/blackbox-public
 
-- name: 'SmartJar'
-  id: 'HC2015'
+- title: Smart Jar
+  subtitle: 2nd place, Hack Cambridge 2016
+  tags:
+    - Hackathon
+  date: 2016-01-01
+  content: A device to predict the consumption of perishables in a home, and automatically reorder supplies.
+  image: /hackathons/hc_2016.png
   urls:
-    - name: Github
-      url: 'https://github.com/96imranahmed/SmartJar'
-  images:
-    - img: 'static/img/landing/projects/hc.png'
-    - img: 'static/img/landing/projects/hc_pres.jpg'
-  desc: '<p>Created <b>SmartJar</b> - a device which predicted the consumption rate of perishables in a home and automatically reordered supplies. Our
-   team was awarded 2nd place at this competitive event out of >70 teams.</p>'
+    - name: GitHub
+      url: https://github.com/96imranahmed/SmartJar 
+  
+- title: Cambridge University Eco Racing
+  subtitle: Business Manager
+  tags:
+    - Other
+  date: 2015-09-01
+  content:  Led a 10-person team to raise funds for this student-run solar racing team with an operating budget in excess of £1m.
+  image: /other/cuer.png
+  urls:
+    - name: CUER
+      url: https://www.cuer.co.uk/

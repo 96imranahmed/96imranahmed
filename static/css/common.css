@@ -1,0 +1,36 @@
+/* Padding to merge with is-fixed-top navbar */
+.main-content {
+    padding-top: 6px;
+}
+
+/* Centering styling */
+.is-stacked-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.is-flex-centered {
+    justify-content: center !important;
+    align-items: center;
+}
+
+.stacked-pad-top {
+    padding-top: 10px;
+}
+
+/* Set columns to full height */
+.is-full-height {
+    min-height: calc(100vh - 58px);
+}
+
+/* Set to full width */
+.is-full-width {
+    width: 100%;
+}
+
+/* Footer content */ 
+.true-footer-content {
+    margin-bottom: 10px;   
+    opacity: 0.75;
+    text-align: center;
+}

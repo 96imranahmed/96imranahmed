@@ -1,0 +1,87 @@
+---
+layout: default
+title: Projects
+permalink: /projects
+jsimports:
+- isotope.pkgd.min.js
+- projects.js
+cssimports:
+- projects.css
+---
+<section class="section">
+    <div class="container">
+        <h1 class="title">Projects</h1>
+        <nav class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <p class="subtitle is-5 items-count"></p>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <div class="buttons has-addons is-flex-centered filter-button-group">
+                        <button data-filter="*" class="button filter-All">All</button>
+                        <button data-filter=".Research" class="button">Research</button>
+                        <button data-filter=".Reimplementation" class="button">Reimplementations</button>
+                        <button data-filter=".Hackathon" class="button">Hackathons</button>
+                        <button data-filter=".Learning" class="button">Learning</button>
+                        <button data-filter=".Other" class="button">Other</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="tile is-ancestor do-wrap-tiles tile-filter">
+            {% for project in site.data.projects %}
+            <div class="tile is-parent is-4 tile-card {{project.tags | join: " "}}">
+                <div class="tile is-child">
+                    <div class="card tile-card-dim-set">
+                        <div class="card-image">
+                            <figure class="image">
+                                {% assign img_import_stub = "static/img"| prepend: site.baseurl %}
+                                <img class = "card-image-div" src="{{ img_import_stub | append: project.image }}">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p class="title is-5">{{ project.title }}</p>
+                                <p class="subtitle is-6">{{ project.subtitle }}</p>
+                                {{ project.content }}
+                                <br>
+                                <time datetime="{{ project.date }}"><strong>{{ project.date | date: "%B %Y" }}</strong></time>
+                            </div>
+                            <div class="tags">
+                                {% for tag in project.tags %}
+                                <span class="filter-{{tag}} tag">{{tag}} </span>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            {% for url in project.urls %}
+                            {% if url.name == "GitHub" %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>&nbsp;GitHub&nbsp;
+                            </a>
+                            {% elsif url.name == "Medium" %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fab fa-medium-m"></i>
+                                </span>&nbsp;Medium&nbsp;
+                            </a>
+                            {% else %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fas fa-globe-americas"></i>
+                                </span>&nbsp;{{url.name}}&nbsp;
+                            </a>
+                            {% endif %}
+                            {% endfor %}
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
