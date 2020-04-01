@@ -16,13 +16,12 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89916114-1"></script>
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ "static/img/icon.png" | prepend: site.baseurl }}">
+    <link rel="shortcut icon" href="{{ "static/img/icon.png" | relative_url }}">
     <!--load all styles -->
-    <link href="{{"static/css/bulma.css"| prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{"static/css/common.css"| prepend: site.baseurl }}" rel="stylesheet">
-    {% assign css_import_stub = "static/css/"| prepend: site.baseurl %}
+    <link href="{{ "static/css/bulma.css" | relative_url }}" rel="stylesheet">
+    <link href="{{ "static/css/common.css" | relative_url }}" rel="stylesheet">
     {% for c_import in page.cssimports%}
-        <link href="{{ css_import_stub | append: c_import }}" rel="stylesheet">
+        <link href="{{ "static/css/" | append: c_import | relative_url}}" rel="stylesheet">
     {% endfor %}
 </head>
 
@@ -80,12 +79,11 @@
                 <div class="content true-footer-content copyright-year"></div>
             </div>
         {% endif %}
-        <script defer src="{{"static/js/fa-all.js" | prepend: site.baseurl }}"></script>
-        <script language="JavaScript" type="text/javascript" src="{{"static/js/jquery-3.4.1.min.js" | prepend: site.baseurl }}"></script>
-        <script language="JavaScript" type="text/javascript" src="{{"static/js/common.js" | prepend: site.baseurl }}"></script>
-        {% assign js_import_stub = "static/js/"| prepend: site.baseurl %}
+        <script defer src="{{ "static/js/fa-all.js" | relative_url }}"></script>
+        <script language="JavaScript" type="text/javascript" src="{{ "static/js/jquery-3.4.1.min.js" | relative_url }}"></script>
+        <script language="JavaScript" type="text/javascript" src="{{ "static/js/common.js" | relative_url }}"></script>
         {% for c_import in page.jsimports%}
-            <script language="JavaScript" type="text/javascript" src="{{ js_import_stub | append: c_import }}"></script>
+            <script language="JavaScript" type="text/javascript" src="{{  "static/js/" | append: c_import | relative_url}}"></script>
         {% endfor %}
     </footer>
 </body>

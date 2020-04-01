@@ -37,8 +37,7 @@ cssimports:
                     <div class="card tile-card-dim-set">
                         <div class="card-image">
                             <figure class="image">
-                                {% assign img_import_stub = "static/img"| prepend: site.baseurl %}
-                                <img class = "card-image-div" src="{{ img_import_stub | append: project.image }}">
+                                <img class = "card-image-div" src="{{ "static/img"  | append: project.image | relative_url}}">
                             </figure>
                         </div>
                         <div class="card-content">
