@@ -1,3 +1,11 @@
+@media screen and (orientation:landscape),
+print {
+    .is-hidden-landscape {
+        display: none !important;
+    }
+}
+
+
 /* Padding to merge with is-fixed-top navbar */
 .main-content {
     padding-top: 6px;
@@ -16,6 +24,14 @@
 
 .stacked-pad-top {
     padding-top: 10px;
+}
+
+/* Distribute content vertically */
+.distribute-across-space {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* Set columns to full height */
