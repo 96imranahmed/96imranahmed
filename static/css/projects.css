@@ -36,6 +36,27 @@
     margin-top: auto;
 }
 
+.title-section-padding {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0rem auto;
+    min-width: 375px;
+}
+
+.cards-section-padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0rem auto;
+}
+
+.cards-title-padding {
+    padding: 0rem 1.5rem;
+}
+
 .filter-All {
     background-color: #48c774 !important;
     border-color: transparent !important;

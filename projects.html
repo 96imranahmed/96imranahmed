@@ -8,8 +8,8 @@ jsimports:
 cssimports:
 - projects.css
 ---
-<section class="section cards-no-padding">
-    <div class="container cards-container">
+<section class="section title-section-padding">
+    <div class="container">
         <h1 class="title">Projects</h1>
         <nav class="level">
             <div class="level-left">
@@ -30,6 +30,10 @@ cssimports:
                 </div>
             </div>
         </nav>
+    </div>
+</section>
+<section class="section cards-section-padding">
+    <div class="container">
         <div class="tile is-ancestor do-wrap-tiles tile-filter">
             {% for project in site.data.projects %}
             <div class="tile is-parent is-4 tile-card {{project.tags | join: " "}}">
