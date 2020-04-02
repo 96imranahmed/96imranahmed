@@ -46,8 +46,15 @@ print {
 
 /* Footer content */ 
 .default-footer-content {
+    margin-top: auto; 
     margin-bottom: 10px;   
     opacity: 0.75;
     text-align: center;
-    font-size: 2vh;
+    font-size: min(2vh, 12px);
+}
+
+.send-to-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

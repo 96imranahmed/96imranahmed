@@ -22,6 +22,8 @@
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 .suppress-ul-padding {
     margin-top: 0.5rem !important;
@@ -42,7 +44,7 @@
     margin-bottom: 10px;   
     text-align: center;
     opacity: 0.75;
-    font-size: 2vh;
+    font-size: min(2vh, 12px);
 }
 
 /* Scroll prompter - source: https://codepen.io/nxworld/pen/OyRrGy */
