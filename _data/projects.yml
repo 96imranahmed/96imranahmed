@@ -9,8 +9,69 @@
     - name: McKinsey Venture Academy
       url: https://www.mckinsey.com/uk/careers/mckinsey-venture-academy/overview
 
+- title: Building Fair and Transparent ML
+  subtitle: AI for Social Good workshop, ICML 2019
+  tags: 
+    - Research
+  date: 2019-06-01
+  content: Imran Ahmed, Giles L. Colclough, Daniel First, & QuantumBlack contributors
+  image: /research/ai4sg_2019.png
+  urls:
+    - name: Paper
+      url: https://aiforsocialgood.github.io/icml2019/img/pdf.png
+    - name: Poster
+      url: https://aiforsocialgood.github.io/icml2019/accepted/track2/posters/32_aisg_icml2019.pdf
+
+- title: Operationalizing Risk Management in ML
+  subtitle: Debug ML workshop, ICLR 2019
+  tags: 
+    - Research
+  date: 2019-05-01
+  content: Imran Ahmed, Giles L. Colclough, Daniel First, & QuantumBlack contributors
+  image: /research/iclr_2019.png
+  urls:
+    - name: Paper
+      url: https://debug-ml-iclr2019.github.io/cameraready/DebugML-19_paper_30.pdf
+
+- title: (Reimplementation) FaceBoxes
+  subtitle: CNN for CPU-based face detection
+  tags: 
+    - Reimplementation
+  date: 2018-08-01
+  content: Tensorflow implementation of <a target="blank_" href="https://arxiv.org/pdf/1708.05234.pdf">Faceboxes</a>. Model provided accurate CNN-based face detection on a CPU at ~8 FPS.
+  image: /reimplementations/faceboxes.png
+  urls:
+    - name: GitHub
+      url: https://github.com/96imranahmed/faceboxes_tf
+    - name: Original Paper
+      url: https://arxiv.org/pdf/1708.05234.pdf
+
+- title: A smart stethoscope for diagnosing lung diseases
+  subtitle: Master's thesis
+  tags: 
+    - Research
+  date: 2018-06-01
+  content: Research with <a target="blank_" href="http://acoustics.eng.cam.ac.uk/">Dr. Anurag Agarwal</a> and <a target="blank_" href="http://mi.eng.cam.ac.uk/~mjfg/">Prof. Mark Gales</a>. Content under NDA.
+  image: /research/thesis_2018.png
+  urls:
+    - name: Contact
+      url: mailto:96imranahmed@gmail.com?subject=Reaching%20out%20RE%3A%20Master%27s%20Thesis
+
+- title: (Reimplementation) 3D U-Net
+  subtitle: CNN for medical image segmentation
+  tags: 
+    - Reimplementation
+  date: 2018-02-01
+  content: Tensorflow implementation of the popular <a target="blank_" href="https://arxiv.org/pdf/1606.06650.pdf">3D U-Net</a> architecture trained on a prostate segmentation task.
+  image: /reimplementations/unet_segmentation.png
+  urls:
+    - name: GitHub
+      url: https://github.com/96imranahmed/3D-Unet
+    - name: Original Paper
+      url: https://arxiv.org/pdf/1606.06650.pdf
+
 - title: Clickyclicky
-  subtitle: HackCambridge 2018
+  subtitle: Hack Cambridge 2018
   tags: 
     - Hackathon
   date: 2018-01-01
@@ -21,6 +82,17 @@
       url: https://github.com/96imranahmed/clickyclicky
     - name: Video
       url: https://www.youtube.com/watch?v=uqCJ5BoDEjI
+
+- title: Deep RL for Sepsis Treatment
+  subtitle: ML4H workshop, NeurIPS 2017
+  tags: 
+    - Research
+  date: 2017-11-01
+  content: Aniruddh Raghu, Matthieu Komorowski, Imran Ahmed, Leo Celi, Peter Szolovits, Marzyeh Ghassemi
+  image: /research/neurips_2017.png
+  urls:
+    - name: Paper
+      url: https://arxiv.org/abs/1711.09602
 
 - title: Pure Interaction
   subtitle: Microsoft prize, HackMIT 2017
@@ -59,12 +131,24 @@
   subtitle: Student-run educational-access non-profit
   tags: 
     - Other
-  date: 2017-06-01
+  date: 2017-07-01
   content: Managed the design and development of a platform to digitse the organisation's mentor-mentee matching program.
   image: /other/project_access.png
   urls:
     - name: Project Access
       url: https://projectaccess.org/
+
+- title: CPU-based face-tracking
+  subtitle: UROP, Interactive Robotics Group
+  tags: 
+    - Research
+    - Reimplementation
+  date: 2017-05-01
+  content: Project focussed on rotation-invariant CPU-based face-tracking for <a target="blank_" href="https://www.nasa.gov/astrobee">robotics applications</a> onboard the <a target="blank_" href="https://www.nasa.gov/mission_pages/station/main/index.html">ISS</a>.
+  image: /MIT.png
+  urls:
+    - name: Github
+      url: https://github.com/96imranahmed/urop
 
 - title: SpatialRL
   subtitle: Improbable prize, Hack Cambridge 2017
@@ -82,7 +166,6 @@
 - title: Educational Video Compression
   subtitle: Prize winner, Facebook Hackathon Finals
   tags: 
-    - Research
     - Hackathon
   date: 2016-11-01
   content: Created an algorithm to compress educational videos by 100x to reduce the data cost of accessing online education.
