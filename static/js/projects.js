@@ -4,13 +4,13 @@ let filters = new Set();
 function updateFilterCount() {
     if ($grid.data('isotope').filteredItems.length == 0) {
         $('.items-count').html(
-            '<strong>No posts</strong>')
+            '<strong>No projects</strong>')
     } else if ($grid.data('isotope').filteredItems.length == 1) {
         $('.items-count').html(
             '<strong>1</strong> post')
     } else {
         $('.items-count').html(
-            '<strong>' + $grid.data('isotope').filteredItems.length + '</strong> posts')
+            '<strong>' + $grid.data('isotope').filteredItems.length + '</strong> projects')
     }
 }
 
@@ -49,7 +49,7 @@ $('.filter-button-group').on( 'click', 'button', function() {
 
     if (filters.has("*") || filterValue == "*") {
         filters.clear()
-        filters.add(filterValue)
+        filters.add("*")
     } else {
         if ($(this).hasClass("filter-" + filterValue.substring(1))) {
             filters.delete(filterValue)
@@ -57,7 +57,12 @@ $('.filter-button-group').on( 'click', 'button', function() {
                 filters.add("*")
             }
         } else {
-            filters.add(filterValue)
+            if (filters.size == 4) {
+                filters.clear()
+                filters.add("*")
+            } else {
+                filters.add(filterValue)
+            }
         }
     }
     $grid.isotope({ filter: [...filters].join(', ') });

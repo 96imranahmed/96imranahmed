@@ -72,6 +72,24 @@ cssimports:
                                     <i class="fab fa-medium-m"></i>
                                 </span>&nbsp;Medium&nbsp;
                             </a>
+                            {% elsif url.name == "Contact" %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>&nbsp;Contact&nbsp;
+                            </a>
+                            {% elsif url.name == "Paper" %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fas fa-flask"></i>
+                                </span>&nbsp;Paper&nbsp;
+                            </a>
+                            {% elsif url.name == "Video" %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fas fa-video"></i>
+                                </span>&nbsp;Video&nbsp;
+                            </a>
                             {% else %}
                             <a target="_blank" href="{{url.url}}" class="card-footer-item">
                                 <span class="icon">

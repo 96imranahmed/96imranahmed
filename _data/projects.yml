@@ -147,7 +147,7 @@
   content: Project focussed on rotation-invariant CPU-based face-tracking for <a target="blank_" href="https://www.nasa.gov/astrobee">robotics applications</a> onboard the <a target="blank_" href="https://www.nasa.gov/mission_pages/station/main/index.html">ISS</a>.
   image: /MIT.png
   urls:
-    - name: Github
+    - name: GitHub
       url: https://github.com/96imranahmed/urop
 
 - title: SpatialRL
