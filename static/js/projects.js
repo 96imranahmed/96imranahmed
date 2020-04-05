@@ -7,7 +7,7 @@ function updateFilterCount() {
             '<strong>No projects</strong>')
     } else if ($grid.data('isotope').filteredItems.length == 1) {
         $('.items-count').html(
-            '<strong>1</strong> post')
+            '<strong>1</strong> project')
     } else {
         $('.items-count').html(
             '<strong>' + $grid.data('isotope').filteredItems.length + '</strong> projects')
@@ -26,6 +26,9 @@ function updateSelectedBar() {
         if (filters.has(filterValue)) {
             $(this).addClass(parseClassName)
         } else {
+            if ($(this).is(":hover")) {
+                $(this).blur();
+            }
             $(this).removeClass(parseClassName)
         }
     })
@@ -47,9 +50,12 @@ $(document).ready(function() {
 $('.filter-button-group').on( 'click', 'button', function() {
     var filterValue = $(this).attr('data-filter');
 
-    if (filters.has("*") || filterValue == "*") {
+    if ((filters.has("*") && filterValue == "*") || filterValue == "*") {
         filters.clear()
         filters.add("*")
+    } else if ((filters.has("*") && filterValue != "*")) {
+        filters.clear()
+        filters.add(filterValue)
     } else {
         if ($(this).hasClass("filter-" + filterValue.substring(1))) {
             filters.delete(filterValue)
