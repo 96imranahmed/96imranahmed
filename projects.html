@@ -84,6 +84,12 @@ cssimports:
                                     <i class="fas fa-flask"></i>
                                 </span>&nbsp;Paper&nbsp;
                             </a>
+                            {% elsif url.name == "Original Paper" %}
+                            <a target="_blank" href="{{url.url}}" class="card-footer-item">
+                                <span class="icon">
+                                    <i class="fas fa-flask"></i>
+                                </span>&nbsp;Original Paper&nbsp;
+                            </a>
                             {% elsif url.name == "Video" %}
                             <a target="_blank" href="{{url.url}}" class="card-footer-item">
                                 <span class="icon">

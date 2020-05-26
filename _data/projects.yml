@@ -1,3 +1,16 @@
+- title: (Reimplementation) Born-again Tree Ensembles
+  subtitle: Interpretable high-accuracy decision trees
+  tags: 
+    - Reimplementation
+  date: 2020-03-01
+  content: A reimplementation of a DP algorithm to convert a random forest to a decision tree.
+  image: /reimplementations/bat.png
+  urls:
+    - name: GitHub
+      url: https://github.com/96imranahmed/Born-Again-Tree-Ensembles
+    - name: Original Paper
+      url: https://arxiv.org/pdf/2003.11132.pdf
+
 - title: McKinsey Venture Academy
   subtitle: Co-lead
   tags: 
@@ -18,7 +31,7 @@
   image: /research/ai4sg_2019.png
   urls:
     - name: Paper
-      url: https://aiforsocialgood.github.io/icml2019/img/pdf.png
+      url: https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf
     - name: Poster
       url: https://aiforsocialgood.github.io/icml2019/accepted/track2/posters/32_aisg_icml2019.pdf
 
