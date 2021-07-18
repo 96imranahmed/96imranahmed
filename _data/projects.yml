@@ -1,3 +1,14 @@
+- title: ChromeSwitcher
+  subtitle: Google account switching extension
+  tags: 
+    - Other
+  date: 2021-04-01
+  content: A Chrome extension to automatically switch to the correct logged-in Google account across a range of Google services.
+  image: /other/chromeswitcher_border.png
+  urls:
+    - name: Chrome Web Store
+      url: https://chrome.google.com/webstore/detail/chromeswitcher/hgdpoaoejpdndojaahfljmgckibkmdhk?hl=en
+
 - title: (Reimplementation) Born-again Tree Ensembles
   subtitle: Interpretable high-accuracy decision trees
   tags: 
