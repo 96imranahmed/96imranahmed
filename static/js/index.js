@@ -1,6 +1,6 @@
 var options = {
     strings: [
-        "-", 
+        "a", 
         "a full-time nerd",
         "a diehard Stargate fan",
         "a product manager",

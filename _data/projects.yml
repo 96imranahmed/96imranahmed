@@ -1,9 +1,9 @@
 - title: ChromeSwitcher
-  subtitle: Google account switching extension
+  subtitle: Google account switcher extension
   tags: 
     - Other
   date: 2021-04-01
-  content: A Chrome extension to automatically switch to the correct logged-in Google account across a range of Google services.
+  content: A Chrome extension to auto-switch to the right Google account across a range of Google services.
   image: /other/chromeswitcher_border.png
   urls:
     - name: Chrome Web Store
