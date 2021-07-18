@@ -1,11 +1,9 @@
 var options = {
     strings: [
-        "a", 
+        "-", 
         "a full-time nerd",
-        "a business consultant",
-        "an aspiring product manager",
-        "a machine learning fanatic",
-        "a hacker"
+        "a diehard Stargate fan",
+        "a product manager",
     ],
     typeSpeed: 80,
     loop: true,
